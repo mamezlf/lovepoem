@@ -1,0 +1,68 @@
+body {
+  background-color: rgb(95, 107, 143);
+  font-family: "Gill Sans", sans-serif;
+  color: white;
+}
+
+#tableContainer {
+  display: table;
+  border-spacing: 10px;
+}
+
+#tableRow {
+  display: table-row;
+}
+
+#guide {
+  font-weight: bolder;
+  font-size: large;
+  margin: 10px;
+}
+
+#header {
+  text-align: center;
+}
+
+#main {
+  display: table-cell;
+  
+  font-size: 105%;
+  padding: 20px;
+  vertical-align: top;
+  background-color: rgb(175, 165, 191);
+}
+
+
+.shark{
+  width: 80%;
+  height: auto;
+}
+
+#right {
+  display: table-cell;
+  font-size: 105%;
+  padding: 15px;
+  vertical-align: top;
+  background-color: rgb(117, 148, 189);
+  text-align: center;
+  width: 200px;
+}
+
+#left {
+  display: table-cell;
+  font-size: 105%;
+  padding: 15px;
+  vertical-align: top;
+  background-color: rgb(117, 148, 189);
+  text-align: center;
+  width: 200px;
+}
+
+#footer {
+  margin: 15px;
+  bottom: 0;
+}
+
+a:link {
+  color: white;
+}
