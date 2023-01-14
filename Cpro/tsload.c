@@ -57,15 +57,16 @@ int main(void)
   scanf("%s", &href);
   printf("date: ");
   scanf("%s", &date);
-  fprintf(out, "<h4> <a href=\"%s\" title= \"RPD%s\"\n>",href,date);
+  fprintf(out, "<h4> <a href=\"%s\" title= \"RPD%s\"\n>", href, date);
 
-  printf("iframe: ");
-  fflush(stdin);
-  scanf("%[^\n]", &iframe);
+  // printf("iframe: ");
+  // fflush(stdin);
+  // scanf("%[^\n]", &iframe);
 
-  
-  fprintf(out,"<!--title here--></a></h4>\n%s", iframe);
-  fprintf(out, "\n<div class=\"tslist\" id=\"RPD%s>\"", date);
+  fprintf(out,"<!--title here--></a></h4>\n");
+  // fprintf(out,"<!--title here--></a></h4>\n%s", iframe);
+
+  fprintf(out, "\n<div class=\"tslist\" id=\"RPD%s\">", date);
   fprintf(out, "<ul style=\"list-style: none\">");
 
   char buf[256];
