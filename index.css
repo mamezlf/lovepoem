@@ -4,11 +4,6 @@ body {
   color: white;
 }
 
-ul{
-  list-style-type: none;
-  /* testing */
-}
-
 a:visited{
   color: white;
 }
@@ -30,7 +25,14 @@ a:visited{
 }
 
 #guide ul{
+  list-style-type: none;
+  margin: 0px;
+  padding: 5px 0px 5px 0px;
+}
+
+#guide li{
   display: inline;
+  padding: 0px 5px 0px 5px;
 }
 
 #header {
@@ -45,6 +47,11 @@ a:visited{
   padding: 20px;
   vertical-align: top;
   background-color: rgb(175, 165, 191);
+}
+
+#main ul{
+  list-style-type: none;
+  /* testing */
 }
 
 
