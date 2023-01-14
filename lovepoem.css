@@ -4,6 +4,15 @@ body {
   color: white;
 }
 
+ul{
+  list-style-type: none;
+}
+
+a:visited{
+  color: white;
+}
+
+
 #tableContainer {
   display: table;
   border-spacing: 10px;
@@ -19,8 +28,13 @@ body {
   margin: 10px;
 }
 
+#guide ul{
+  display: inline;
+}
+
 #header {
   text-align: center;
+  margin: 10px;
 }
 
 #main {
@@ -65,5 +79,9 @@ body {
 
 a:link {
   color: white;
+}
+
+a:hover{
+  font-size: 120%;
 }
 
