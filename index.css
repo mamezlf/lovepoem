@@ -32,7 +32,7 @@ a:visited{
 
 #guide li{
   display: inline;
-  padding: 0px 5px 0px 5px;
+  padding-right: 5px;
 }
 
 #header {
