@@ -49,7 +49,7 @@ int main(void)
   num = FindSongNum(fp);
 
   char href[SIZE];
-  char date[SIZE];
+  int date;
 
   char iframe[SIZE];
 
@@ -66,8 +66,15 @@ int main(void)
   fprintf(out,"<!--title here--></a></h4>\n");
   // fprintf(out,"<!--title here--></a></h4>\n%s", iframe);
 
+  int y, m, d;
+  d = date % 100;
+  date /= 100;
+  m = date % 100;
+  y = date / 100;
+  fprintf(out, "<time datetime=\"20%02d-%02d-%02d\"></time>\n", y, m, d);
+
   fprintf(out, "\n<div class=\"tslist\" id=\"RPD%s\">", date);
-  fprintf(out, "<ul style=\"list-style: none\">");
+  fprintf(out, "\n<ul style=\"list-style: none\">");
 
   char buf[256];
   for (i = 0; i < num && fgets(buf, sizeof(buf), in); i++)
