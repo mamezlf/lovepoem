@@ -56,8 +56,8 @@ int main(void)
   printf("youtube link: ");
   scanf("%s", &href);
   printf("date: ");
-  scanf("%s", &date);
-  fprintf(out, "<h4> <a href=\"%s\" title= \"RPD%s\"\n>", href, date);
+  scanf("%d", &date);
+  fprintf(out, "<h4> <a href=\"%s\" title= \"RPD%d\"\n>", href, date);
 
   // printf("iframe: ");
   // fflush(stdin);
@@ -66,14 +66,17 @@ int main(void)
   fprintf(out,"<!--title here--></a></h4>\n");
   // fprintf(out,"<!--title here--></a></h4>\n%s", iframe);
 
+  int datetmp;
+  datetmp=date;
+
   int y, m, d;
-  d = date % 100;
-  date /= 100;
-  m = date % 100;
-  y = date / 100;
+  d = datetmp % 100;
+  datetmp /= 100;
+  m = datetmp % 100;
+  y = datetmp / 100;
   fprintf(out, "<time datetime=\"20%02d-%02d-%02d\"></time>\n", y, m, d);
 
-  fprintf(out, "\n<div class=\"tslist\" id=\"RPD%s\">", date);
+  fprintf(out, "\n<div class=\"tslist\" id=\"RPD%d\">", date);
   fprintf(out, "\n<ul style=\"list-style: none\">");
 
   char buf[256];
