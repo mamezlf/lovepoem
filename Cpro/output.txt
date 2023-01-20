@@ -1,79 +1,65 @@
-<h4> <a href="https://youtu.be/zSfb521AX1c" title= "RPD230115"
+<h4> <a href="https://youtu.be/wdPDOWgCxl8" title= "RPD230120"
 ><!--title here--></a></h4>
-<time datetime="2023-01-15"></time>
+<time datetime="2023-01-20"></time>
 
-<div class="tslist" id="RPD230115">
-<ul style="list-style: none"><li>0:42 ATEEZ - Guerrilla
+<div class="tslist" id="RPD230120">
+<ul style="list-style: none"><li>0:04 ITZY - Cheshire
 </li>
-<li>2:36 NMIXX - O.O
+<li>0:33 SEVENTEEN - HOT
 </li>
-<li>3:33 NCT DREAM - Candy
+<li>1:16 KARA - WHEN I MOVE
 </li>
-<li>4:58 SuperM - 100
+<li>1:42 Stray Kids - CASE 143
 </li>
-<li>8:09 Stray Kids - God's Menu
+<li>2:11 Wonder Girls - So Hot
 </li>
-<li>10:15 BTS - Run BTS
+<li>2:36 Taemin - Advice
 </li>
-<li>11:28 Taemin - Criminal
+<li>3:46 aespa - Dreams Come True
 </li>
-<li>14:52 MONSTA X - GAMBLER
+<li>4:35 TripleS AAA - Generation
 </li>
-<li>17:49 SHINee - Don't Call Me
+<li>5:35 Sokodomo - MERRY-GO-ROUND
 </li>
-<li>19:58 Yoon Mirae, BIBI - LAW
+<li>6:06 IVE - After LIKE
 </li>
-<li>21:30 SEVENTEEN - Home
+<li>7:50 BTS - Run BTS
 </li>
-<li>24:05 ZICO - New thing
+<li>8:31 BIBI - BIBI Vengeance
 </li>
-<li>26:14 NewJeans - Hype Boy
+<li>9:02 SuperM - Jopping
 </li>
-<li>27:32 NCT 127 - 2 Baddies
+<li>9:39 KARD - Bomb Bomb
 </li>
-<li>28:07 NCT U - 90's Love
+<li>10:11 YooA - Selfish
 </li>
-<li>29:19 TWICE - KNOCK KNOCK
+<li>14:39 TWICE - Heart Shaker
 </li>
-<li>29:59 BTS - Dynamite
+<li>16:26 TREASURE - MMM
 </li>
-<li>33:34 My Money Don't Jiggle It  Folds TikTok
+<li>17:00 BLACKPINK - How You Like That
 </li>
-<li>34:49 ENHYPEN - Future Perfect (Pass the MIC)
+<li>17:42 PRODUCE 101 S2 - It's Me (PICK ME)
 </li>
-<li>37:03 BLACKPINK - DDU DU DDU DU
+<li>18:57 NewJeans - Hype Boy
 </li>
-<li>38:02 WINNER - Really Really
+<li>24:02 LE SSERAFIM - ANTIFRAGILE
 </li>
-<li>41:27 Super Junior - Black Suit
+<li>25:33 NCT DREAM - Candy
 </li>
-<li>43:09 sokodomo - MERRY-GO-ROUND
+<li>27:32 Red Velvet - Pose
 </li>
-<li>44:15 GOT7 - Lullaby
+<li>28:24 DanJerous -  HIGH FIVE
 </li>
-<li>46:38 BIGBANG - BANG BANG BANG
+<li>29:04 PRODUCE 101 - PICK ME
 </li>
-<li>47:18 BIGBANG - BAD BOY
+<li>30:09 2PM - Again & Again
 </li>
-<li>48:48 aespa - Girls
+<li>30:50 GOT the beat - Step Back
 </li>
-<li>50:32 BEAST - FICTION
+<li>34:39 Brave Girls - Rollin'
 </li>
-<li>55:33 THE BOYZ - Thrill Ride
-</li>
-<li>56:15 Crush - Rush Hour (feat. j-hope)
-</li>
-<li>59:08 BTS - Fake Love
-</li>
-<li>1:02:18 EXO - Growl
-</li>
-<li>1:02:55 IVE - LOVE DIVE
-</li>
-<li>1:04:16 GFRIEND - MAGO
-</li>
-<li>1:05:28 ONEUS - Ugly Dance
-</li>
-<li>1:06:04 NewJeans - Ditto</li>
+<li>37:56 BLACKPINK - As If It's Your Last</li>
 <br />
 </ul>
 </div>
