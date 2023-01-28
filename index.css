@@ -18,19 +18,39 @@ a:visited{
   display: table-row;
 }
 
-#guide {
+.guide #navleft{
+  text-align: left;
+  float: left;
+}
+
+.guide #navright{
+  text-align: right;
+  font-weight: normal;
+  font-size: medium;
+}
+
+.guide #navright li{
+  padding-left: 5px;
+  padding-right: -5px;
+}
+
+#navright li+ li{
+  border-left: 1px solid white;
+}
+
+.guide {
   font-weight: bolder;
   font-size: large;
   margin: 10px;
 }
 
-#guide ul{
+.guide ul{
   list-style-type: none;
   margin: 0px;
   padding: 5px 0px 5px 0px;
 }
 
-#guide li{
+.guide li{
   display: inline;
   padding-right: 5px;
 }
