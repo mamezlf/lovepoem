@@ -1,61 +1,55 @@
-<h4> <a href="https://youtu.be/H4NgIFJw-6M" title= "RPD190923"
+<h4> <a href="https://youtu.be/jptwT0zQr00" title= "RPD190826"
 ><!--title here--></a></h4>
-<time datetime="2019-09-23"></time>
+<time datetime="2019-08-26"></time>
 
-<div class="tslist" id="RPD190923">
-<ul style="list-style: none"><li>00:50 BTS - Boy With Luv
+<div class="tslist" id="RPD190826">
+<ul style="list-style: none"><li>01:42 SEVENTEEN - Clap
 </li>
-<li>01:42 Red Velvet - Umpah Umpah
+<li>03:18 SEVENTEEN - Home
 </li>
-<li>02:23 VIXX - Shangri-La
+<li>05:02 SEVENTEEN - Oh My!
 </li>
-<li>03:00 ITZY - ICY
+<li>06:13 SEVENTEEN - Hit
 </li>
-<li>04:21 Produce X 101 - X1-MA
+<li>07:03 GFRIEND - Fever
 </li>
-<li>05:24 X1 - Flash
+<li>07:52 BTS - Boy In Luv
 </li>
-<li>06:18 EXO - Dancing King
+<li>08:37 Kang Daniel - What Are You Up To
 </li>
-<li>07:23 BTS - MIC Drop
+<li>09:08 CHUNG HA - Snapping
 </li>
-<li>09:11 NCT Dream - Boom
+<li>09:54 TXT - Crown
 </li>
-<li>10:18 EXO - Growl
+<li>11:06 Pentagon - Humph!
 </li>
-<li>10:47 Crayon Pop - Bar Bar Bar
+<li>12:25 EXO - Mama
 </li>
-<li>12:09 TWICE - Fancy
+<li>14:31 ITZY - ICY
 </li>
-<li>12:46 Pentagon - Humph!
+<li>15:19 LOONA - Butterfly
 </li>
-<li>13:56 NCT 127 - Superhuman
+<li>15:55 EXO - Love Shot
 </li>
-<li>14:30 GFRIEND - Fever
+<li>17:26 NCT Dream - Boom
 </li>
-<li>15:14 BTS - Dope
+<li>18:08 TWICE - Dance The Night Away
 </li>
-<li>15:51 MOMOLAND - Bboom Bboom
+<li>19:23 CIX - Movie Star
 </li>
-<li>17:12 CHUNG HA - Snapping
+<li>20:20 A.C.E - Under Cover
 </li>
-<li>17:57 SEVENTEEN - Hit
+<li>20:58 BTS - MIC Drop
 </li>
-<li>18:36 IZ*ONE - Violeta
+<li>22:48 TVXQ - Mirotic
 </li>
-<li>19:40 TWICE - Knock Knock
+<li>23:26 Red Velvet - Umpah Umpah
 </li>
-<li>20:19 BTS - I Need U
+<li>24:16 NCT 127 - Superhuman
 </li>
-<li>23:02 ITZY - Dalla Dalla
+<li>24:49 (G)I-DLE - Uh-Oh
 </li>
-<li>24:00 TXT - Crown
-</li>
-<li>24:47 Super Junior - Black Suit
-</li>
-<li>25:15 BTS - Idol
-</li>
-<li>25:55 Produce 101 S1 - Pick Me</li>
+<li>25:29 BTS - Idol</li>
 <br />
 </ul>
 </div>
