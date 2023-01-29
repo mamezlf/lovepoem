@@ -57,7 +57,7 @@ int main(void)
   scanf("%s", &href);
   printf("date: ");
   scanf("%d", &date);
-  fprintf(out, "<h4> <a href=\"%s\" title= \"RPD%d\"\n>", href, date);
+  fprintf(out, "<h4> <a href=\"%s\" title= \"RPD%d\"\target= \"_blank\"\n>", href, date);
 
   // printf("iframe: ");
   // fflush(stdin);
