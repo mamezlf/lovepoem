@@ -1,97 +1,97 @@
-<h4> <a href="https://youtu.be/5WJ7Oq6TumU" title= "RPD230201"	arget= "_blank"
+<h4> <a href="https://youtu.be/Errpbub-8-Q" title= "RPD230212"	arget= "_blank"
 ><!--title here--></a></h4>
-<time datetime="2023-02-01"></time>
+<time datetime="2023-02-12"></time>
 
-<div class="tslist" id="RPD230201">
-<ul style="list-style: none"><li>2:05 NewJeans - Hype Boy
+<div class="tslist" id="RPD230212">
+<ul style="list-style: none"><li>1:23 NCT U - BOSS
 </li>
-<li>2:55 NCT DREAM - Hot Sauce
+<li>3:02 ZICO - Any Song
 </li>
-<li>4:06 VICTION - What I Said
+<li>5:36 BTS - Boy In Luv
 </li>
-<li>5:37 KAI, Seulgi, Jeno, Karina - Hot & Cold
+<li>6:49 Turbo - Black Cat Nero
 </li>
-<li>6:50 iKON - Love Scenario
+<li>9:07 TREASURE - HELLO
 </li>
-<li>9:28 EXO - Overdose
+<li>11:18 Taeyang - VIBE (feat. Jimin)
 </li>
-<li>10:37 ENHYPEN - FEVER
+<li>11:53 GFRIEND - Me gustas tu
 </li>
-<li>11:55 Baekhyun - Candy
+<li>12:32 SHINee - Sherlock
 </li>
-<li>13:42 Chungha - Snapping
+<li>13:02 OH MY GIRL BANHANA - Banana Allergy Monkey
 </li>
-<li>14:29 ASTRO - Blue Flame
+<li>15:10 TWICE - Feel Special
 </li>
-<li>16:39 X1 - FLASH
+<li>16:50 KAI, Seulgi, Jeno, Karina - Hot & Cold
 </li>
-<li>17:48 WINNER - AH YEAH
+<li>17:52 DEUX - Please Look at Me
 </li>
-<li>19:08 Taemin - Move
+<li>19:10 Stray Kids - Double Knot
 </li>
-<li>20:30 Stray Kids - MIROH
+<li>20:29 NCT DREAM - Candy
 </li>
-<li>22:20 Red Velvet - Bad Boy
+<li>21:49 BTS - RUN
 </li>
-<li>24:35 SEVENTEEN - Left & Right
+<li>23:00 EXO - Obsession
 </li>
-<li>25:13 ITZY - Not Shy
+<li>24:03 ATEEZ - WAVE
 </li>
-<li>25:47 Nation's Son - NEVER
+<li>24:37 NCT DREAM - Hot Sauce
 </li>
-<li>26:15 EXID - LADY
+<li>25:40 &TEAM - Under the skin
 </li>
-<li>28:27 Red Velvet - Russian Roulette
+<li>26:45 SHINee - View
 </li>
-<li>29:05 NCT DREAM - Boom
+<li>27:59 TXT - No Rules
 </li>
-<li>30:33 NCT 127 - Touch
+<li>29:13 ENHYPEN - ParadoXXX Invasion
 </li>
-<li>33:23 GOT7 - Stop stop it
+<li>30:31 ATEEZ - THANXX
 </li>
-<li>34:36 EXO - Monster
+<li>31:38 NCT 127 - Kick It
 </li>
-<li>35:12 BLACKPINK - How You Like That
+<li>33:59 GOT7 & ECLIPSE
 </li>
-<li>36:36 TWICE - KNOCK KNOCK
+<li>35:10 SEVENTEEN - CLAP
 </li>
-<li>37:15 BTS - Boy With Luv
+<li>36:21 EXO - Ko Ko Bop
 </li>
-<li>39:19 NewJeans - Cookie
+<li>38:19 BLACKPINK - How You Like That
 </li>
-<li>39:55 My Money Don't Jiggle Jiggle It Folds
+<li>39:01 TXT - New Rules
 </li>
-<li>40:50 BTS - Not Today
+<li>40:26 Taemin - Advice
 </li>
-<li>43:02 sokodomo - Merry-Go-Round
+<li>43:18 GIRIBOY - 100°C
 </li>
-<li>44:15 Stray Kids - Back Door
+<li>45:28 IZ*ONE - FIESTA
 </li>
-<li>46:10 GFRIEND - Time for the moon night
+<li>46:12 NCT DREAM - Boom
 </li>
-<li>46:57 BTS - MIC Drop
+<li>46:42 Wonder Girls - Tell Me
 </li>
-<li>49:40 SuperM - Tiger Inside
+<li>48:02 aespa - Girls
 </li>
-<li>51:32 SEVENTEEN - HIT
+<li>49:17 TripleS AAA - Generation
 </li>
-<li>52:47 ENHYPEN - ParadoXXX Invasion
+<li>50:17 PRODUCE X 101 - X1-MA
 </li>
-<li>54:37 THE BOYZ - MAVERICK
+<li>51:16 NewJeans - OMG
 </li>
-<li>56:13 TXT - Good Boy Gone Bad
+<li>52:12 BTS - ON
 </li>
-<li>58:54 ONEUS - Valkyrie
+<li>54:51 A.C.E - Under Cover
 </li>
-<li>1:01:06 BTS - Run BTS
+<li>56:20 ENHYPEN - FEVER
 </li>
-<li>1:02:42 B.I - BTBT
+<li>57:48 NCT 127 - Favorite (Vampire)
 </li>
-<li>1:03:52 2PM - My House
+<li>1:00:38 SuperM - Jopping
 </li>
-<li>1:04:33 ATEEZ - WAVE
+<li>1:02:03 THE BOYZ - The Stealer
 </li>
-<li>1:05:06 NewJeans - OMG</li>
+<li>1:03:25 MONSTA X - Love Killa</li>
 <br />
 </ul>
 </div>
