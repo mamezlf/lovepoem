@@ -1,97 +1,43 @@
-<h4> <a href="https://youtu.be/Errpbub-8-Q" title= "RPD230212"	arget= "_blank"
+<h4> <a href="https://youtu.be/dvw14zNAS2g" title= "RPD230219"	arget= "_blank"
 ><!--title here--></a></h4>
-<time datetime="2023-02-12"></time>
+<time datetime="2023-02-19"></time>
 
-<div class="tslist" id="RPD230212">
-<ul style="list-style: none"><li>1:23 NCT U - BOSS
+<div class="tslist" id="RPD230219">
+<ul style="list-style: none"><li>1:00 TVXQ - Hug
 </li>
-<li>3:02 ZICO - Any Song
+<li>1:59 NMIXX - O.O
 </li>
-<li>5:36 BTS - Boy In Luv
+<li>2:56 TXT - CROWN
 </li>
-<li>6:49 Turbo - Black Cat Nero
+<li>3:43 Girls' Generation - Into The New World
 </li>
-<li>9:07 TREASURE - HELLO
+<li>7:44 GD - Heartbreaker
 </li>
-<li>11:18 Taeyang - VIBE (feat. Jimin)
+<li>9:12 AB6IX - BREATHE
 </li>
-<li>11:53 GFRIEND - Me gustas tu
+<li>10:37 Wanna One - Energetic
 </li>
-<li>12:32 SHINee - Sherlock
+<li>12:00 NCT 2018 - Black on Black
 </li>
-<li>13:02 OH MY GIRL BANHANA - Banana Allergy Monkey
+<li>14:41 Stray Kids - Hellevator
 </li>
-<li>15:10 TWICE - Feel Special
+<li>15:18 f(x) - LA chA TA
 </li>
-<li>16:50 KAI, Seulgi, Jeno, Karina - Hot & Cold
+<li>15:59 BTS - No More Dream
 </li>
-<li>17:52 DEUX - Please Look at Me
+<li>18:30 iKON - My Type
 </li>
-<li>19:10 Stray Kids - Double Knot
+<li>19:43 EXO - MAMA
 </li>
-<li>20:29 NCT DREAM - Candy
+<li>23:01 SHINee - Replay
 </li>
-<li>21:49 BTS - RUN
+<li>26:20 NCT U - The 7th Sense
 </li>
-<li>23:00 EXO - Obsession
+<li>28:18 X1 - FLASH
 </li>
-<li>24:03 ATEEZ - WAVE
+<li>28:43 NewJeans - Attention
 </li>
-<li>24:37 NCT DREAM - Hot Sauce
-</li>
-<li>25:40 &TEAM - Under the skin
-</li>
-<li>26:45 SHINee - View
-</li>
-<li>27:59 TXT - No Rules
-</li>
-<li>29:13 ENHYPEN - ParadoXXX Invasion
-</li>
-<li>30:31 ATEEZ - THANXX
-</li>
-<li>31:38 NCT 127 - Kick It
-</li>
-<li>33:59 GOT7 & ECLIPSE
-</li>
-<li>35:10 SEVENTEEN - CLAP
-</li>
-<li>36:21 EXO - Ko Ko Bop
-</li>
-<li>38:19 BLACKPINK - How You Like That
-</li>
-<li>39:01 TXT - New Rules
-</li>
-<li>40:26 Taemin - Advice
-</li>
-<li>43:18 GIRIBOY - 100°C
-</li>
-<li>45:28 IZ*ONE - FIESTA
-</li>
-<li>46:12 NCT DREAM - Boom
-</li>
-<li>46:42 Wonder Girls - Tell Me
-</li>
-<li>48:02 aespa - Girls
-</li>
-<li>49:17 TripleS AAA - Generation
-</li>
-<li>50:17 PRODUCE X 101 - X1-MA
-</li>
-<li>51:16 NewJeans - OMG
-</li>
-<li>52:12 BTS - ON
-</li>
-<li>54:51 A.C.E - Under Cover
-</li>
-<li>56:20 ENHYPEN - FEVER
-</li>
-<li>57:48 NCT 127 - Favorite (Vampire)
-</li>
-<li>1:00:38 SuperM - Jopping
-</li>
-<li>1:02:03 THE BOYZ - The Stealer
-</li>
-<li>1:03:25 MONSTA X - Love Killa</li>
+<li>30:57 Red Velvet - Happiness</li>
 <br />
 </ul>
 </div>
