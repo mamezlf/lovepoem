@@ -57,6 +57,7 @@ int main(void)
   scanf("%s", &href);
   printf("date: ");
   scanf("%d", &date);
+  fprintf(out, "\n<div class=\"tslist\" id=\"RPD%d\">", date);
   fprintf(out, "<h4> <a href=\"%s\" title= \"RPD%d\"\target= \"_blank\"\n>", href, date);
 
   // printf("iframe: ");
@@ -74,9 +75,8 @@ int main(void)
   datetmp /= 100;
   m = datetmp % 100;
   y = datetmp / 100;
-  fprintf(out, "<time datetime=\"20%02d-%02d-%02d\"></time>\n", y, m, d);
+  fprintf(out, "<time datetime=\"20%02d-%02d-%02d\"></time>\n</div>\n", y, m, d);
 
-  fprintf(out, "\n<div class=\"tslist\" id=\"RPD%d\">", date);
   fprintf(out, "\n<ul style=\"list-style: none\">");
 
   char buf[256];
@@ -85,7 +85,7 @@ int main(void)
     fprintf(out, "<li>%s</li>\n", buf);
   }
 
-  fprintf(out, "<br />\n</ul>\n</div>\n<!-- RPD%d -->\n",date);
+  fprintf(out, "<br />\n</ul>\n<br />\n<!-- RPD%d -->\n",date);
 
   fclose(in);
   fclose(out);

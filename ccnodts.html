@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewpoint" content="width=devide-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="ccn.css" />
+    <script src="jquery.min.js"></script>
+    <script>
+      $(function () {
+        $("#acMenu div").on("click", function () {
+          $(this).next().slideToggle();
+          $(this).toggleClass("active");
+        });
+      });
+
+      function foldItem(menu, subMenu) {
+        /*
+        SHOW ALL TIMESTAMPS⇔CLOSE ALL TIMESTAMPS　をトグル実行
+        */
+        if ($(menu).hasClass("active")) {
+          $(subMenu).next().slideUp("normal"); /* 全て畳む   */
+          $(menu).add(subMenu).removeClass("active"); /* active削除 */
+          $(menu).text("SHOW ALL TIMESTAMPS");
+        } else {
+          $(subMenu).next().slideDown("normal"); /* SHOW ALL TIMESTAMPS   */
+          $(menu).add(subMenu).addClass("active"); /* active追加 */
+          $(menu).text("CLOSE ALL TIMESTAMPS");
+        }
+      }
+    </script>
+    <title>CCN Online RPD Timestamps (pre-alpha)</title>
+  </head>
+
+  <body>
+    <div id="guide">
+      <ul>
+        <li><a href="index.html" title="HOME">HOME</a></li>
+        <li><a href="" title="Timestamps Guide">TIMESTAMPS</a></li>
+        <li><a href="" title="Gallery">GALLERY</a></li>
+        <li><a href="" title="Jlogs">JLOGS</a></li>
+        <li><a href="" title="Statistics">STATISTICS</a></li>
+      </ul>
+    </div>
+
+    <div id="header">
+      <h1>CCN Page (pre-alpha)</h1>
+    </div>
+
+    <div id="tableContainer">
+      <div id="tableRow">
+        <div id="left">
+          <h2>Profile</h2>
+          <a href="https://www.instagram.com/chumchunam/" target="_blank">
+            <img
+              class="profile"
+              src="img/ccnprofile.png"
+              alt="ins@chumchunam"
+            />
+          </a>
+          <h3>Chunchunam</h3>
+          <p>
+            <a href="https://www.instagram.com/chumchunam/" target="_blank"
+              >ins@chumchunam</a
+            >
+            <br />
+            <a
+              href="https://www.youtube.com/channel/UCwvKA3pqxGvA7hhs2HogL1w"
+              target="_blank"
+              >YouTube@chumchunam</a
+            >
+          </p>
+        </div>
+
+        <div id="main">
+          <h2>Online RPD Timestamps for CCN</h2>
+          <p>
+            <u>This page is for online RPD Timestamps</u>
+            <br />
+          </p>
+
+          <div>
+            <span id="expandMenu" onclick='foldItem(this,"#acMenu>div")'
+              >SHOW ALL TIMESTAMPS</span
+            >
+          </div>
+          <!-- show all T.S. -->
+          <br />
+
+          <div id="acMenu">
+            <div class="tslist" id="RPD200314">
+              <h4>
+                <a
+                  href="https://youtu.be/6uKI-6b-nxc"
+                  title="RPD200314"
+                  arget="_blank"
+                  >7th │ KPOP ONLINE RANDOM PLAY DANCE BATTLE GAME / 케이팝
+                  온라인 랜덤플레이댄스 배틀게임</a
+                >
+              </h4>
+              <time datetime="2020-03-14"></time>
+            </div>
+
+            <ul style="list-style: none">
+              <li>00:56 BTS - Dope</li>
+              <li>01:33 WJSN - Boogie Up</li>
+              <li>02:01 Stray Kids - Side Effects</li>
+              <li>02:29 Red Velvet - Red Flavour</li>
+              <li>03:05 ATEEZ - Wave</li>
+              <li>03:39 BLACKPINK - Boombayah</li>
+              <li>05:00 ITZY - Icy</li>
+              <li>05:44 Super Junior - Devil</li>
+              <li>06:23 (G)I-DLE - Latata</li>
+              <li>08:46 TXT - Crown</li>
+              <li>10:07 ONEUS - Valkyrie</li>
+              <li>11:16 THE BOYZ - D.D.D</li>
+              <li>11:54 IZ*ONE - Violeta</li>
+              <li>13:41 SEVENTEEN - Oh My!</li>
+              <li>14:24 Chung Ha - Snapping</li>
+              <li>15:12 NCT 127 - Simon Says</li>
+              <li>15:50 OH MY GIRL - Bungee</li>
+              <li>16:32 WINNER - SOSO</li>
+              <li>17:17 GFRIEND - Fever</li>
+              <li>17:57 PENTAGON Humph!</li>
+              <li>18:37 SUNMI - Lalalay</li>
+              <li>19:06 EXO - Overdose</li>
+              <li>19:32 Orange Caramel - Catallena</li>
+              <li>21:15 EVERGLOW - Adios</li>
+              <li>21:56 VERIVERY - Lay Back</li>
+              <li>23:27 J-HOPE feat. Becky G - Chicken Noodle Soup</li>
+              <li>23:58 MOMOLAND - I'm So Hot</li>
+              <li>24:42 SuperM - Jopping</li>
+              <li>25:18 AOA - Come See Me</li>
+              <li>26:01 BTS - ON</li>
+              <br />
+            </ul>
+            <br />
+            <!-- RPD200314 -->
+
+            <div class="tslist" id="RPD200312">
+              <h4>
+                <a
+                  href="https://youtu.be/TmMc7nR7rlc"
+                  title="RPD200312"
+                  arget="_blank"
+                  >6th | THE J WORLD OF KPOP RANDOM PLAY DANCE / 월드 오브
+                  케이팝 랜덤플레이댄스</a
+                >
+              </h4>
+              <time datetime="2020-03-12"></time>
+            </div>
+
+            <ul style="list-style: none">
+              <li>01:06 Super Junior - Sorry Sorry</li>
+              <li>02:47 BTS - Boy With Luv</li>
+              <li>03:34 BLACKPINK - Ddu Du Ddu Du</li>
+              <li>04:04 X1 - Flash</li>
+              <li>04:32 EVERGLOW - Dun Dun</li>
+              <li>05:07 Stray Kids - Miroh</li>
+              <li>05:49 (G)I-DLE - Uh-Oh</li>
+              <li>06:32 Pentagon - Shine</li>
+              <li>07:10 TWICE - Feel Special</li>
+              <li>07:54 ATEEZ - Wonderland</li>
+              <li>08:24 Red Velvet - Power Up</li>
+              <li>09:03 Super M - Jopping</li>
+              <li>09:38 BTS - ON</li>
+              <li>10:09 HyunA - Flower Shower</li>
+              <li>10:43 EXO - Love Shot</li>
+              <li>11:23 IZ*ONE - Fiesta</li>
+              <li>12:07 THE BOYZ - Reveal</li>
+              <li>13:46 TXT - Crown</li>
+              <li>15:15 AB6IX - Breathe</li>
+              <li>15:57 MAMAMOO - Hip</li>
+              <li>17:12 GFRIEND - Crossroads</li>
+              <li>17:59 GOT7 - You Calling My Name</li>
+              <li>18:29 Oh My Girl Banhana - Banana Allergy Monkey</li>
+              <li>19:12 NCT U - Boss</li>
+              <li>19:43 SNSD - Into The New World</li>
+              <li>20:33 SEVENTEEN - Mansae</li>
+              <li>21:20 TWICE - Fancy</li>
+              <li>22:01 Red Velvet - Psycho</li>
+              <li>22:41 BTS - Black Swan</li>
+              <br />
+            </ul>
+            <br />
+            <!-- RPD200312 -->
+
+            <div class="tslist" id="RPD200307">
+              <h4>
+                <a
+                  href="https://youtu.be/m6xkXEju-zk"
+                  title="RPD200307"
+                  arget="_blank"
+                  >5th 킹핀│KPOP ONLINE RANDOM PLAY DANCE GAME / 케이팝 온라인
+                  랜덤플레이댄스 게임</a
+                >
+              </h4>
+              <time datetime="2020-03-07"></time>
+            </div>
+
+            <ul style="list-style: none">
+              <li>00:13 AOA - Come See Me</li>
+              <li>00:56 VIXX - Shangri La</li>
+              <li>01:35 (G)I-DLE - Uh-Oh</li>
+              <li>02:18 WANNA ONE - Energetic</li>
+              <li>02:59 BLACKPINK - As If It's Your Last</li>
+              <li>03:42 NCT U - The 7th Sense</li>
+              <li>04:12 CUNGHA - Snapping</li>
+              <li>05:00 AB6IX - Breath</li>
+              <li>06:10 GOT7 - A</li>
+              <li>08:12 MAMAMOO - Hip</li>
+              <li>11:47 BTS - Fire</li>
+              <li>13:05 VERIVERY - Lay Back</li>
+              <li>13:52 WONDER GIRLS - Be My Baby</li>
+              <li>14:29 SEVENTEEN - Hit</li>
+              <li>15:10 RED VELVET - Peek-A-Boo</li>
+              <li>15:39 TXT - Run Away</li>
+              <li>16:21 GFRIEND - Crossroads</li>
+              <li>17:07 SHINee - Everybody</li>
+              <li>17:43 IZ*ONE - Fiesta</li>
+              <li>18:27 ATEEZ - Answer</li>
+              <li>19:20 EVERGLOW - Bon Bon Chocolat</li>
+              <li>19:57 BTS - Black Swan</li>
+              <li>21:33 SUPER JUNIOR - Sorry Sorry</li>
+              <li>23:28 S.E.S - I'm Your Girl</li>
+              <li>24:00 EXO - Obsession</li>
+              <li>24:33 TWICE - Dance The Night Away</li>
+              <li>25:11 THE BOYZ - REVEAL</li>
+              <li>25:44 ITZY - Dalla Dalla</li>
+              <li>26:44 BTS - ON</li>
+              <br /><br />
+            </ul>
+            <!-- RPD200307 -->
+
+            <div class="tslist" id="RPD200228">
+              <h4>
+                <a
+                  href="https://youtu.be/GsLp0msBXfA"
+                  title="RPD200228"
+                  arget="_blank"
+                  >2ND | 케이팝 온라인 랜덤플레이댄스게임 / KPOP ONLINE
+                  RANDOMPLAY DANCE GAME</a
+                >
+              </h4>
+              <time datetime="2020-02-28"></time>
+            </div>
+
+            <ul style="list-style: none">
+              <li>00:14 SEVENTEEN - Thanks</li>
+              <li>00:40 MOMOLAND - Thumbs Up</li>
+              <li>01:20 STRAY KIDS - Miroh</li>
+              <li>02:50 BTS - Black Swan</li>
+              <li>03:43 CUNGHA - Snapping</li>
+              <li>04:31 IKON - Love Scenario</li>
+              <li>05:16 ITZY - Dalla Dalla</li>
+              <li>06:16 BTS - ON</li>
+              <li>06:47 TWICE - Feel Special</li>
+              <li>07:29 EXO - Gorwl</li>
+              <li>09:25 EVERGLOW - Dun Dun</li>
+              <li>10:01 CIX - Movie Star</li>
+              <li>10:32 GFRIEND - Crossroads</li>
+              <li>11:18 NCT U - Boss</li>
+              <li>11:51 OH MY GIRL - Secret Garden</li>
+              <li>13:34 WONDER GIRLS - Nobody</li>
+              <li>14:51 (G)I-DLE - Uh-Oh</li>
+              <li>15:35 VERIVERY - Layback</li>
+              <li>16:24 RED VELVET - Umpah Umpah</li>
+              <li>18:38 PENTAGON - Shine</li>
+              <li>19:14 SUNMI - Gashina</li>
+              <li>19:49 ATEEZ - Wonderland</li>
+              <li>20:18 LOONA - Butterfly</li>
+              <li>21:00 THE BOYZ - Reveal</li>
+              <li>21:32 IZ*ONE - Fiesta</li>
+              <li>23:49 TXT - Run Away</li>
+              <li>24:32 SNSD - Into The New World</li>
+              <li>25:22 SUPER JUNIOR - 2YA2YAO</li>
+              <li>26:34 SUPER M - Jopping</li>
+              <br /><br />
+            </ul>
+            <!-- RPD200228 -->
+
+            <div class="tslist" id="RPD200223">
+              <h4>
+                <a
+                  href="https://youtu.be/FCVJn9bTvTA"
+                  title="RPD200223"
+                  arget="_blank"
+                  >1ST | KPOP ON-LINE RANDOM PLAY DANCE GAME / 더제이 온라인
+                  랜덤플레이댄스게임</a
+                >
+              </h4>
+              <time datetime="2020-02-23"></time>
+            </div>
+
+            <ul style="list-style: none">
+              <li>00:10 Super Junior - 2YA2YAO!</li>
+              <li>02:04 HyunA - Flower Shower</li>
+              <li>02:36 BTS - I Need U</li>
+              <li>03:25 IZ*ONE - Fiesta</li>
+              <li>04:53 4Minute - Crazy</li>
+              <li>06:06 TWICE - Fancy</li>
+              <li>06:49 EXO - Love Shot</li>
+              <li>08:16 SEVENTEEN - Oh My!</li>
+              <li>10:48 EVERGLOW - Dun Dun</li>
+              <li>11:23 NCT Dream - Boom</li>
+              <li>12:42 WINNER - Really Really</li>
+              <li>14:06 Stray Kids - Sdie Effects</li>
+              <li>15:57 Red Velvet - Psycho</li>
+              <li>16:38 SHINee - Ring Ding Dong</li>
+              <li>17:05 TWICE - Signal</li>
+              <li>17:45 THE BOYZ - Reveal</li>
+              <li>18:19 ITZY -ICY</li>
+              <li>19:02 ATEEZ - Answer</li>
+              <li>20:30 GOT7 - You Calling My Name</li>
+              <li>21:00 MOMOLAND - I'm So Hot</li>
+              <li>21:44 BTS - Black Swan</li>
+              <li>23:14 Super M - Jopping</li>
+              <li>24:23 2PM - My House</li>
+              <li>25:35 TXT - Run Away</li>
+              <li>26:16 BLACKPINK - Ddu Du Ddu Du</li>
+              <br /><br />
+            </ul>
+            <!-- RPD200223 -->
+
+            <br /><br /><br />
+          </div>
+          <!-- acMenu -->
+        </div>
+        <!-- main -->
+      </div>
+      <!-- tablerow -->
+    </div>
+    <!-- tablecontainer -->
+
+    <div id="footer">
+      &copy; 2023 ins@geniusmeeee
+      <br />
+      All images and videos appearing on this site are the property of their
+      respective owners.
+      <br />
+      Special thanks to CCN Timestamps providers! ^ ^
+    </div>
+    <!-- footer -->
+  </body>
+</html>
