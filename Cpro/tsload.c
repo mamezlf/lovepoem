@@ -85,7 +85,7 @@ int main(void)
     fprintf(out, "<li>%s</li>\n", buf);
   }
 
-  fprintf(out, "<br />\n</ul>\n</div>");
+  fprintf(out, "<br />\n</ul>\n</div>\n<!-- RPD%d -->\n",date);
 
   fclose(in);
   fclose(out);
