@@ -1,62 +1,56 @@
-<h4> <a href="https://youtu.be/bwY5s4PYzfw" title= "RPD190317"	arget= "_blank"
+<h4> <a href="https://youtu.be/rNgWMSncHxI" title= "RPD190422"	arget= "_blank"
 ><!--title here--></a></h4>
-<time datetime="2019-03-17"></time>
+<time datetime="2019-04-22"></time>
 
-<div class="tslist" id="RPD190317">
-<ul style="list-style: none"><li>0:14 Red Velvet - Power up
+<div class="tslist" id="RPD190422">
+<ul style="list-style: none"><li>1:26 DNA - BTS
 </li>
-<li>1:28 Gfriend - Sunrise
+<li>2:28 Really Really - WINNER
 </li>
-<li>2:48 Nature - You‘ll be mine
+<li>3:31 Summer Rain - GFRIEND
 </li>
-<li>3:30 Exo - Tempo
+<li>4:08 Boy With Luv - BTS ft. Halsey
 </li>
-<li>3:56 Bts - Anpanman
+<li>5:47 Senorita - (G)-IDLE
 </li>
-<li>5:42 Itzy - Dalla Dalla 
+<li>7:07 Call Me Baby - EXO
 </li>
-<li>8:16 Twice - DTNA
+<li>8:41 Dance The Night Away - Twice
 </li>
-<li>9:41 Dawin - Dessert
+<li>9:13 OHNANANA - Bonde R300
 </li>
-<li>10:50 Chungha - Roller Coaster
+<li>10:07 Pick Me - Produce 101
 </li>
-<li>12:14 Nct 127 - Fire Truck
+<li>12:54 UM OH AH YEH - MAMAMOO
 </li>
-<li>15:00 Red velvet - Bad Boy
+<li>15:59 Thanks - Seventeen
 </li>
-<li>16:14 Exid - Up & Down
+<li>18:08 200% - AKMU
 </li>
-<li>16:48 Txt - Crown
+<li>20:24 BANANA ALLERGY MONKEY - OH MY GIRL BANHANA
 </li>
-<li>18:13 Exo - Love shot 
+<li>21:02 AMOR FATI - KIM YEON JA
 </li>
-<li>19:58 Total Ape - Young Gods
+<li>23:39 Forever Young - BLACKPINK
 </li>
-<li>22:51 Jennie - Solo
+<li>26:23 Limitless - NCT 127
 </li>
-<li>23:47 Blackpink - Playing with fire
+<li>28:34 Be Natural - Red Velvet
 </li>
-<li>24:55 Seventeen - Home
+<li>29:52 DALLA DALLA - ITZY
 </li>
-<li>26:22 Ikon - Killing me
+<li>31:27 Time for The Moon Night - GFRIEND
 </li>
-<li>27:23 Bts - Boy in luv
+<li>32:16 I'M SO HOT - MOMOLAND
 </li>
-<li>28:32 Blackpink - DDU-DU DDU-DU
+<li>33:26 Pick Me (Nayana) - Produce 101
 </li>
-<li>29:46 Produce 101 - Oh little girl 
+<li>36:05 MIC DROP - BTS
 </li>
-<li>30:28 Mark Ronson - Uptown fank
+<li>37:09 BBOOM BBOOM - MOMOLAND
 </li>
-<li>31:36 Nct 127 - Simon says
-</li>
-<li>32:39 Wanna one - Boomerang
-</li>
-<li>34:53 Got7 - Lullaby
-</li>
-<li>35:33 (G)-idle - Senorita</li>
+<li>37:48 CROWN - TXT</li>
 <br />
 </ul>
 </div>
-<!-- RPD190317 -->
+<!-- RPD190422 -->

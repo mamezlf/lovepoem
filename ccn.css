@@ -1,57 +1,85 @@
+#main {
+  
+  margin: 50px auto;
+}
+
+#acMenu div,
+#expandMenu {
+  display: block;
+  cursor: pointer;
+  font-weight: bold;
+  
+}
+
+#acMenu div+ul {
+  display: none;
+}
+
+#acMenu div:after,
+#expandMenu:after {
+  content: " (+) OPEN";
+}
+
+#acMenu div.active:after,
+#expandMenu.active:after {
+  content: " (-) CLOSE ";
+}
+
 body {
   background-color: rgb(95, 107, 143);
   font-family: "Gill Sans", sans-serif;
   color: white;
 }
 
-a:visited{
+a:visited {
   color: white;
 }
 
-iframe,h4{
+iframe,
+h4 {
   margin-right: 20px;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
   #guide {
     font-weight: bolder;
     font-size: large;
     margin: 10px;
   }
-  
-  #guide ul{
+
+  #guide ul {
     list-style-type: none;
     margin: 0px;
     padding: 5px 0px 5px 0px;
   }
-  
-  #guide li{
+
+  #guide li {
     display: inline;
     padding-right: 5px;
   }
-  
+
   #header {
     text-align: center;
     margin: 10px;
     padding-top: 3px;
   }
-  
-  
+
+
   #main {
     font-size: 105%;
     padding: 15px 0px 0px 15px;
     vertical-align: top;
     background-color: rgb(175, 165, 191);
   }
-  
-  #main ul{
+
+  #main ul {
     list-style-type: none;
     /* testing */
   }
-  
-  iframe{
-    width:auto;
-    height:auto;
+
+  iframe {
+    width: auto;
+    height: auto;
   }
 
   #left {
@@ -61,110 +89,110 @@ iframe,h4{
     vertical-align: top;
     text-align: center;
     background-color: rgb(117, 148, 189);
-  
+
     height: auto;
   }
-  
-  #left h3{
+
+  #left h3 {
     margin: 7px;
   }
-  
-  #left p{
+
+  #left p {
     line-height: 1.5;
   }
-  
-  #left a img{
+
+  #left a img {
     border-radius: 50%;
     width: 30%;
     height: auto;
   }
-  
+
   #footer {
     margin: 15px;
     bottom: 0;
   }
-  
+
   a:link {
     color: white;
   }
-  
+
   details {
     border: 1px solid #aaa;
     border-radius: 4px;
     padding: 0.5em 0.5em 0;
   }
-  
+
   summary {
     font-weight: bold;
     margin: -0.5em -0.5em 0;
     padding: 0.5em;
   }
-  
+
   details[open] {
     padding: 0.5em;
   }
-  
+
   details[open] summary {
     border-bottom: 1px solid #aaa;
     margin-bottom: 0.5em;
   }
 }
 
-@media screen and (min-width: 601px){
+@media screen and (min-width: 601px) {
   #tableContainer {
     display: table;
     border-spacing: 10px;
   }
-  
+
   #tableRow {
     display: table-row;
   }
-  
+
   #guide {
     font-weight: bolder;
     font-size: large;
     margin: 10px;
   }
-  
-  #guide ul{
+
+  #guide ul {
     list-style-type: none;
     margin: 0px;
     padding: 5px 0px 5px 0px;
   }
-  
-  #guide li{
+
+  #guide li {
     display: inline;
     padding-right: 5px;
   }
-  
+
   #header {
     text-align: center;
     margin: 10px;
     padding-top: 3px;
   }
-  
-  
+
+
   #main {
     display: table-cell;
-    
+
     font-size: 105%;
     padding: 15px 0px 0px 30px;
     vertical-align: top;
     background-color: rgb(175, 165, 191);
   }
-  
-  #main ul{
+
+  #main ul {
     list-style-type: none;
     /* testing */
   }
-  
-  
-  .shark{
+
+
+  .shark {
     width: 80%;
     height: auto;
   }
 
-  
+
   #left {
     font-size: 105%;
     padding: 15px;
@@ -174,52 +202,50 @@ iframe,h4{
     width: 250px;
     height: auto;
   }
-  
-  #left h3{
+
+  #left h3 {
     margin: 7px;
   }
-  
-  #left p{
+
+  #left p {
     line-height: 1.5;
   }
-  
-  #left a img{
+
+  #left a img {
     border-radius: 50%;
     width: 60%;
     height: auto;
-    
-    
+
+
   }
-  
+
   #footer {
     margin: 15px;
     bottom: 0;
   }
-  
+
   a:link {
     color: white;
   }
-  
-  details {
+
+  /* details {
     border: 1px solid #aaa;
     border-radius: 4px;
     padding: 0.5em 0.5em 0;
   }
-  
+
   summary {
     font-weight: bold;
     margin: -0.5em -0.5em 0;
     padding: 0.5em;
   }
-  
+
   details[open] {
     padding: 0.5em;
   }
-  
+
   details[open] summary {
     border-bottom: 1px solid #aaa;
     margin-bottom: 0.5em;
-  }
+  } */
 }
-
-

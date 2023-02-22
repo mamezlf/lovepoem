@@ -1,36 +1,11 @@
 <!DOCTYPE html>
-<html lang="ja" dir="ltr">
+<html>
   <head>
     <meta charset="utf-8" />
     <meta name="viewpoint" content="width=devide-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="ccn.css" />
-    <script src="jquery.min.js"></script>
-    <script>
-      $(function () {
-        $("#acMenu div").on("click", function () {
-          $(this).next().slideToggle();
-          $(this).toggleClass("active");
-        });
-      });
-
-      function foldItem(menu, subMenu) {
-        /*
-        SHOW ALL TIMESTAMPS⇔CLOSE ALL TIMESTAMPS　をトグル実行
-        */
-        if ($(menu).hasClass("active")) {
-          $(subMenu).next().slideUp("normal"); /* 全て畳む   */
-          $(menu).add(subMenu).removeClass("active"); /* active削除 */
-          $(menu).text("SHOW ALL TIMESTAMPS");
-        } else {
-          $(subMenu).next().slideDown("normal"); /* SHOW ALL TIMESTAMPS   */
-          $(menu).add(subMenu).addClass("active"); /* active追加 */
-          $(menu).text("CLOSE ALL TIMESTAMPS");
-        }
-      }
-    </script>
     <title>CCN Timestamps (pre-alpha)</title>
+    <link rel="stylesheet" href="ccn.css" />
   </head>
-
   <body>
     <div id="guide">
       <ul>
@@ -66,7 +41,7 @@
             <a
               href="https://www.youtube.com/channel/UCwvKA3pqxGvA7hhs2HogL1w"
               target="_blank"
-              >YouTube@chumchunam</a
+              >YTube@chumchunam</a
             >
           </p>
         </div>
@@ -74,46 +49,33 @@
         <div id="main">
           <h2>RPD Timestamps for CCN</h2>
           <p>
-            <u
-              >press ctrl+F(Win) or cmd+F(Mac) to find the songs/ artists after
-              clicking on SHOW ALL TIMESTAMPS</u
-            >
+            <u>press ctrl+F(Win) or cmd+F(Mac) to find the songs/ artists</u>
             <br />
-            The search function is still under construction...ㅁㅅㅁ
+            The search functionality is still preparing...ㅁㅅㅁ
           </p>
 
-          <div>
-            <span id="expandMenu" onclick='foldItem(this,"#acMenu>div")'
-              >SHOW ALL TIMESTAMPS</span
+          <h4>
+            <a
+              href="https://youtu.be/dvw14zNAS2g"
+              title="RPD230219"
+              arget="_blank"
+              >아이돌의 데뷔곡만 모아서 랜덤플레이댄스를 한다면?👶 | KPOP RANDOM
+              PLAY DANCE in Seoul, KOREA | THE J</a
             >
-          </div>
-          <!-- show all T.S. -->
-          <br />
+          </h4>
+          <time datetime="2023-02-19"></time>
 
-          <div id="acMenu">
-            <div class="tslist" id="RPD230219">
-              <h4>
-                <a
-                  href="https://youtu.be/dvw14zNAS2g"
-                  title="RPD230219"
-                  target="_blank"
-                  >아이돌의 데뷔곡만 모아서 랜덤플레이댄스를 한다면?👶 | KPOP
-                  RANDOM PLAY DANCE in Seoul, KOREA | THE J</a
-                >
-              </h4>
-              <time datetime="2023-02-19"></time>
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/dvw14zNAS2g"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen
-              ></iframe>
-              <br /><br />
-            </div>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/dvw14zNAS2g"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
 
+          <div class="tslist" id="RPD230219">
             <ul style="list-style: none">
               <li>1:00 TVXQ - Hug</li>
               <li>1:59 NMIXX - O.O</li>
@@ -135,32 +97,31 @@
               <li>30:57 Red Velvet - Happiness</li>
               <br />
             </ul>
-            <br />
-            <!-- RPD230219 -->
+          </div>
+          <!-- 2023-02-19 -->
 
-            <div class="tslist" id="RPD230212">
-              <h4>
-                <a
-                  href="https://youtu.be/Errpbub-8-Q"
-                  title="RPD230212"
-                  target="_blank"
-                  >한국 예능 놀면뭐하니?😳 촬영 장소에서 랜덤플레이댄스 | KPOP
-                  RANDOM PLAY DANCE in Seoul, KOREA | THE J></a
-                >
-              </h4>
-              <time datetime="2023-02-12"></time>
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/Errpbub-8-Q"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen
-              ></iframe>
-              <br /><br />
-            </div>
+          <h4>
+            <a
+              href="https://youtu.be/Errpbub-8-Q"
+              title="RPD230212"
+              arget="_blank"
+              >한국 예능 놀면뭐하니?😳 촬영 장소에서 랜덤플레이댄스 | KPOP
+              RANDOM PLAY DANCE in Seoul, KOREA | THE J></a
+            >
+          </h4>
+          <time datetime="2023-02-12"></time>
 
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/Errpbub-8-Q"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+
+          <div class="tslist" id="RPD230212">
             <ul style="list-style: none">
               <li>1:23 NCT U - BOSS</li>
               <li>3:02 ZICO - Any Song</li>
@@ -209,33 +170,31 @@
               <li>1:03:25 MONSTA X - Love Killa</li>
               <br />
             </ul>
-            <br />
-            <!-- RPD230212 -->
+          </div>
+          <!-- RPD230212 -->
 
-            <div class="tslist" id="RPD230201">
-              <h4>
-                <a
-                  href="https://youtu.be/5WJ7Oq6TumU"
-                  title="RPD230201"
-                  target="_blank"
-                  >에취🤧 날씨 폼 미쳤다💙 케이팝 랜덤플레이댄스 @대구동성로 |
-                  KPOP RANDOM PLAY DANCE in Daegu, KOREA | THE J</a
-                >
-              </h4>
+          <h4>
+            <a
+              href="https://youtu.be/5WJ7Oq6TumU"
+              title="RPD230201"
+              arget="_blank"
+              >에취🤧 날씨 폼 미쳤다💙 케이팝 랜덤플레이댄스 @대구동성로 | KPOP
+              RANDOM PLAY DANCE in Daegu, KOREA | THE J</a
+            >
+          </h4>
+          <time datetime="2023-02-01"></time>
 
-              <time datetime="2023-02-01"></time>
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/5WJ7Oq6TumU"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen
-              ></iframe>
-              <br /><br />
-            </div>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/5WJ7Oq6TumU"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
 
+          <div class="tslist" id="RPD230201">
             <ul style="list-style: none">
               <li>2:05 NewJeans - Hype Boy</li>
               <li>2:55 NCT DREAM - Hot Sauce</li>
@@ -284,23 +243,32 @@
               <li>1:05:06 NewJeans - OMG</li>
               <br />
             </ul>
-            <br />
-            <!-- RPD230201 -->
+          </div>
+          <!-- RPD230201 -->
 
-            <div class="tslist" id="RPD230129">
-              <h4>
-                <a
-                  href="https://youtu.be/Qtuvxbf6Hu8"
-                  title="RPD230129"
-                  target="_blank"
-                >
-                  케이팝 1세대~2세대 🛼📟 아이돌 특집 랜덤플레이댄스 | KPOP
-                  RANDOM PLAY DANCE 1990s ~ 2010s | THE J</a
-                >
-              </h4>
-              <time datetime="2023-01-29"></time>
-            </div>
+          <h4>
+            <a
+              href="https://youtu.be/Qtuvxbf6Hu8"
+              title="RPD230129"
+              target="_blank"
+            >
+              케이팝 1세대~2세대 🛼📟 아이돌 특집 랜덤플레이댄스 | KPOP RANDOM
+              PLAY DANCE 1990s ~ 2010s | THE J</a
+            >
+          </h4>
+          <time datetime="2023-01-29"></time>
 
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/Qtuvxbf6Hu8"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+
+          <div class="tslist" id="RPD230129">
             <ul style="list-style: none">
               <li>0:03 Seo Taiji and Boys - I Know</li>
               <li>1:15 S.E.S - I'm Your Girl</li>
@@ -328,23 +296,32 @@
               <li>28:21 BIGBANG - Haru Haru</li>
               <br />
             </ul>
-            <br />
-            <!-- RPD230129 -->
+          </div>
+          <!-- RPD230129 -->
 
-            <div class="tslist" id="RPD230120">
-              <h4>
-                <a
-                  href="https://youtu.be/wdPDOWgCxl8"
-                  title="RPD230120"
-                  target="_blank"
-                >
-                  속보📣 "랜덤플레이댄스에 페어 안무 장인들이 자꾸 늘어가" |
-                  KPOP RANDOM PLAY DANCE in Busan, Korea | THE J</a
-                >
-              </h4>
-              <time datetime="2023-01-20"></time>
-            </div>
+          <h4>
+            <a
+              href="https://youtu.be/wdPDOWgCxl8"
+              title="RPD230120"
+              target="_blank"
+            >
+              속보📣 "랜덤플레이댄스에 페어 안무 장인들이 자꾸 늘어가" | KPOP
+              RANDOM PLAY DANCE in Busan, Korea | THE J</a
+            >
+          </h4>
+          <time datetime="2023-01-20"></time>
 
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/wdPDOWgCxl8"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+
+          <div class="tslist" id="RPD230120">
             <ul style="list-style: none">
               <li>2:36 Taemin - Advice</li>
               <li>4:35 TripleS AAA - Generation</li>
@@ -371,22 +348,31 @@
               <li>40:32 NewJeans - Ditto</li>
               <br />
             </ul>
-            <br />
-            <!-- RPD230120 -->
+          </div>
+          <!-- RPD230120 -->
 
-            <div class="tslist" id="RPD230115">
-              <h4>
-                <a
-                  href="https://youtu.be/zSfb521AX1c"
-                  title="RPD230115"
-                  target="_blank"
-                  >부산역🚆앞에서 픽송퍼포먼스👚👕 | PICK SONG PERFORMANCE | THE
-                  J</a
-                >
-              </h4>
-              <time datetime="2023-01-15"></time>
-            </div>
+          <h4>
+            <a
+              href="https://youtu.be/zSfb521AX1c"
+              title="RPD230115"
+              target="_blank"
+              >부산역🚆앞에서 픽송퍼포먼스👚👕 | PICK SONG PERFORMANCE | THE
+              J</a
+            >
+          </h4>
+          <time datetime="2023-01-15"></time>
 
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/zSfb521AX1c"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+
+          <div class="tslist" id="RPD230115">
             <ul style="list-style: none">
               <li>0:42 ATEEZ - Guerrilla</li>
               <li>2:36 NMIXX - O.O</li>
@@ -426,23 +412,34 @@
               <li>1:06:04 NewJeans - Ditto</li>
               <br />
             </ul>
-            <br />
-            <!-- RPD230115 -->
+          </div>
+          <!-- RPD230115 -->
 
-            <div class="tslist" id="RPD230106">
-              <h4>
-                <a
-                  href="https://youtu.be/mwUFcfSxA-w"
-                  title="RPD230106"
-                  target="_blank"
-                  >새해에도 함께해요! 🐰 케이팝 랜덤플레이댄스 이 정도면 노동요?
-                  | KPOP RANDOM PLAY DANCE in Daegu, Korea | THE J</a
-                >
-              </h4>
-              <time datetime="2023-01-06"></time>
-            </div>
+          <h4>
+            <a
+              href="https://youtu.be/mwUFcfSxA-w"
+              title="RPD230106"
+              target="_blank"
+              >새해에도 함께해요! 🐰 케이팝 랜덤플레이댄스 이 정도면 노동요? |
+              KPOP RANDOM PLAY DANCE in Daegu, Korea | THE J</a
+            >
+          </h4>
+          <time datetime="2023-01-06"></time>
 
-            <ul style="list-style: none">
+          <iframe
+            class="video"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/mwUFcfSxA-w"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+
+          <div class="tslist" id="RPD230106">
+            <!-- 展开收起x yet -->
+            <ul>
               <li>0:28 EXO - Love Shot</li>
               <li>2:30 aespa - Savage</li>
               <li>3:20 BLACKPINK - Forever Young</li>
@@ -471,23 +468,33 @@
               <li>30:13 SEVENTEEN - CLAP</li>
               <br />
             </ul>
-            <br />
-            <!-- RPD230106 -->
+          </div>
+          <!-- RPD230106 -->
 
-            <div class="tslist" id="RPD230103">
-              <h4>
-                <a
-                  href="https://youtu.be/8UBkKiuaR9Y"
-                  title="RPD230103"
-                  target="_blank"
-                  >🥶 얼어 죽어도 랜덤플레이댄스 ♥️ | KPOP RANDOM PLAY DANCE in
-                  Daegu, KOREA | THE J</a
-                >
-              </h4>
-              <time datetime="2023-01-03"></time>
-            </div>
+          <h4>
+            <a
+              href="https://youtu.be/8UBkKiuaR9Y"
+              title="RPD230103"
+              target="_blank"
+              >🥶 얼어 죽어도 랜덤플레이댄스 ♥️ | KPOP RANDOM PLAY DANCE in
+              Daegu, KOREA | THE J</a
+            >
+          </h4>
+          <time datetime="2023-01-03"></time>
 
-            <ul style="list-style: none">
+          <iframe
+            class="video"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/8UBkKiuaR9Y"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+
+          <div class="tslist" id="RPD230103">
+            <ul>
               <li>0:45 iKON - Love Scenario</li>
               <li>1:28 KARA - Lupin</li>
               <li>3:30 Crush - Rush Hour (feat. j-hope)</li>
@@ -521,23 +528,32 @@
               <li>36:02 NCT 127 - Kick It</li>
               <br />
             </ul>
-            <br />
-            <!-- RPD230103 -->
+          </div>
+          <!-- RPD230103 -->
 
-            <div class="tslist" id="RPD221225">
-              <h4>
-                <a
-                  href="https://youtu.be/29uoGUIhFxU"
-                  title="RPD221225"
-                  target="_blank"
-                  >🎅크리스마스 스페셜🎄 케이팝 랜덤플레이댄스 | CHRISTMAS
-                  SPECIAL KPOP RANDOM PLAY DANCE | THE J</a
-                >
-              </h4>
-              <time datetime="2022-12-25"></time>
-            </div>
+          <h4>
+            <a
+              href="https://youtu.be/29uoGUIhFxU"
+              title="RPD221225"
+              target="_blank"
+              >🎅크리스마스 스페셜🎄 케이팝 랜덤플레이댄스 | CHRISTMAS SPECIAL
+              KPOP RANDOM PLAY DANCE | THE J</a
+            >
+          </h4>
+          <time datetime="2022-12-25"></time>
 
-            <ul style="list-style: none">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/29uoGUIhFxU"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+
+          <div class="tslist" id="RPD221225">
+            <ul>
               <li>0:03 THE BOYZ - White</li>
               <li>1:17 SECHSKIES - Couple</li>
               <li>2:46 Crush - Rush Hour (feat j-hope)</li>
@@ -591,25 +607,34 @@
               <li>1:00:37 TREASURE - HELLO</li>
               <li>1:01:02 ITZY - SNEAKERS</li>
               <li>1:03:09 BTS - Run BTS</li>
-              <br />
             </ul>
             <br />
-            <!-- RPD221225 -->
+          </div>
+          <!-- RPD221225 -->
 
-            <div class="tslist" id="RPD221217">
-              <h4>
-                <a
-                  href="https://youtu.be/2MVwl9FgvgE"
-                  title="RPD221217"
-                  target="_blank"
-                  >정답을 맞춰야 춤을 출 수 있다..? 부산에서 케이팝 1초 듣고
-                  맞추기 게임 | K-Pop Random Dance Game (ENG) | THE J</a
-                >
-              </h4>
-              <time datetime="2022-12-17"></time>
-            </div>
+          <h4>
+            <a
+              href="https://youtu.be/2MVwl9FgvgE"
+              title="RPD221217"
+              target="_blank"
+              >정답을 맞춰야 춤을 출 수 있다..? 부산에서 케이팝 1초 듣고 맞추기
+              게임 | K-Pop Random Dance Game (ENG) | THE J</a
+            >
+          </h4>
+          <time datetime="2022-12-17"></time>
 
-            <ul style="list-style: none">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/2MVwl9FgvgE"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+
+          <div class="tslist" id="RPD221217">
+            <ul>
               <li>0:24 aespa - next level</li>
               <li>0:52 exo - love shot</li>
               <li>1:54 nct 127 - kick it</li>
@@ -624,22 +649,21 @@
               <li>16:46 NCT U - Make A Wish</li>
               <br />
             </ul>
-            <br />
-            <!-- RPD221217 -->
+          </div>
+          <!-- RPD221217 -->
 
-            <div class="tslist" id="RPD221130">
-              <h4>
-                <a
-                  href="https://youtu.be/fE0I4ZgIX-o"
-                  title="RPD221130"
-                  target="_blank"
-                  >스코어RPD | 랜덤플레이댄스로 점수내기 대결!🥊 | KPop Random
-                  Dance Game in Daegu, Korea</a
-                >
-              </h4>
-              <time datetime="2022-11-30"></time>
-            </div>
+          <h4>
+            <a
+              href="https://youtu.be/fE0I4ZgIX-o"
+              title="RPD221130"
+              target="_blank"
+              >스코어RPD | 랜덤플레이댄스로 점수내기 대결!🥊 | KPop Random Dance
+              Game in Daegu, Korea</a
+            >
+          </h4>
+          <time datetime="2022-11-30"></time>
 
+          <div class="tslist" id="RPD221130">
             <ul style="list-style: none">
               <li>0:45 THE BOYZ_D.D.D</li>
               <li>2:02 ZICO_New thing</li>
@@ -661,22 +685,21 @@
               <li>23:39 (G)I-DLE_Senorita</li>
               <br />
             </ul>
-            <br />
-            <!-- RPD221130 -->
+          </div>
+          <!-- RPD221130 -->
 
-            <div class="tslist" id="RPD221123">
-              <h4>
-                <a
-                  href="https://youtu.be/x2987MQIQiE"
-                  title="RPD221123"
-                  target="_blank"
-                  >1시간 넘도록 거리에서 춤을 춘다면? 🤯 | KPop Random Play
-                  Dance in Daegu, Korea @대구 동성로</a
-                >
-              </h4>
-              <time datetime="2022-11-23"></time>
-            </div>
+          <h4>
+            <a
+              href="https://youtu.be/x2987MQIQiE"
+              title="RPD221123"
+              target="_blank"
+              >1시간 넘도록 거리에서 춤을 춘다면? 🤯 | KPop Random Play Dance in
+              Daegu, Korea @대구 동성로</a
+            >
+          </h4>
+          <time datetime="2022-11-23"></time>
 
+          <div class="tslist" id="RPD221123">
             <ul style="list-style: none">
               <li>0:45 Yoon Mirae, BIBI - LAW</li>
               <li>2:05 TREASURE - HELLO</li>
@@ -738,22 +761,21 @@
               <li>1:04:06 BTS - Not Today</li>
               <br />
             </ul>
-            <br />
-            <!-- RPD221123 -->
+          </div>
+          <!-- RPD221123 -->
 
-            <div class="tslist" id="RPD221014">
-              <h4>
-                <a
-                  href="https://youtu.be/EPX-yBAi2VM"
-                  title="RPD221014"
-                  target="_blank"
-                  >남산타워에서 랜덤플레이댄스 춤추기! | K-Pop Random Play Dance
-                  in Seoul Ntower, Korea</a
-                >
-              </h4>
-              <time datetime="2022-10-14"></time>
-            </div>
+          <h4>
+            <a
+              href="https://youtu.be/EPX-yBAi2VM"
+              title="RPD221014"
+              target="_blank"
+              >남산타워에서 랜덤플레이댄스 춤추기! | K-Pop Random Play Dance in
+              Seoul Ntower, Korea</a
+            >
+          </h4>
+          <time datetime="2022-10-14"></time>
 
+          <div class="tslist" id="RPD221014">
             <ul style="list-style: none">
               <li>3:37 NCT DREAM - Hello Future</li>
               <li>4:10 NewJeans - Hype Boy</li>
@@ -771,22 +793,21 @@
               <li>23:48 SEVENTEEN - HIT</li>
               <br />
             </ul>
-            <br />
-            <!-- RPD221014 -->
+          </div>
+          <!-- RPD221014 -->
 
-            <div class="tslist" id="RPD221002">
-              <h4>
-                <a
-                  href="https://youtu.be/hpZgIyYbdkY"
-                  title="RPD221002"
-                  target="_blank"
-                  >안양 사람들 레알 케이팝랜덤댄스 고인물이네요;;
-                  (feat.우선멈'춤') K-Pop Random Play Dance in Korea</a
-                >
-              </h4>
-              <time datetime="2022-10-02"></time>
-            </div>
+          <h4>
+            <a
+              href="https://youtu.be/hpZgIyYbdkY"
+              title="RPD221002"
+              target="_blank"
+              >안양 사람들 레알 케이팝랜덤댄스 고인물이네요;; (feat.우선멈'춤')
+              K-Pop Random Play Dance in Korea</a
+            >
+          </h4>
+          <time datetime="2022-10-02"></time>
 
+          <div class="tslist" id="RPD221002">
             <ul style="list-style: none">
               <li>0:01 BTS - Fire</li>
               <li>1:20 TVXQ - Mirotic</li>
@@ -818,21 +839,20 @@
               <li>35:44 Yoon Mi-Rae, BIBI - Law</li>
               <br />
             </ul>
-            <br />
-            <!-- RPD221002 -->
+          </div>
+          <!-- RPD221002 -->
 
-            <div class="tslist" id="RPD220930">
-              <h4>
-                <a
-                  href="https://youtu.be/ecrBSS6wDbI"
-                  title="RPD220930"
-                  target="_blank"
-                  >GOTOE's KPOP RANDOM PLAY DANCE in ANYANG, KOREA</a
-                >
-              </h4>
-              <time datetime="2022-09-30"></time>
-            </div>
+          <h4>
+            <a
+              href="https://youtu.be/ecrBSS6wDbI"
+              title="RPD220930"
+              target="_blank"
+              >GOTOE's KPOP RANDOM PLAY DANCE in ANYANG, KOREA</a
+            >
+          </h4>
+          <time datetime="2022-09-30"></time>
 
+          <div class="tslist" id="RPD220930">
             <ul style="list-style: none">
               <li>2:41 BLESSED-CURSED - ENHYPEN</li>
               <li>4:03 OVERDOSE - EXO</li>
@@ -868,22 +888,21 @@
               <li>54:33 BTS - DYNAMITE</li>
               <br />
             </ul>
-            <br />
-            <!-- RPD220930 -->
+          </div>
+          <!-- RPD220930 -->
 
-            <div class="tslist" id="RPD220925">
-              <h4>
-                <a
-                  href="https://youtu.be/4KUQse0cq5s"
-                  title="RPD220925"
-                  target="_blank"
-                  >새삥한⌚️✨️ 친구들과 대구 동성로에서 랜덤플레이 댄스 | K-Pop
-                  Random Play Dance in Korea</a
-                >
-              </h4>
-              <time datetime="2022-09-25"></time>
-            </div>
+          <h4>
+            <a
+              href="https://youtu.be/4KUQse0cq5s"
+              title="RPD220925"
+              target="_blank"
+              >새삥한⌚️✨️ 친구들과 대구 동성로에서 랜덤플레이 댄스 | K-Pop
+              Random Play Dance in Korea</a
+            >
+          </h4>
+          <time datetime="2022-09-25"></time>
 
+          <div class="tslist" id="RPD220925">
             <ul style="list-style: none">
               <li>0:45 2pm - My House</li>
               <li>2:00 ATEEZ - Deja Vu</li>
@@ -915,21 +934,20 @@
               <li>41:11 BTS - Idol</li>
               <br />
             </ul>
-            <br />
-            <!-- RPD220925 -->
+          </div>
+          <!-- RPD220925 -->
 
-            <div class="tslist" id="RPD220908">
-              <h4>
-                <a
-                  href="https://youtu.be/ZDO8bsLAc_4"
-                  title="RPD220908"
-                  target="_blank"
-                  >GOTOE's KPOP RANDOM PLAY DANCE in BUSAN, KOREA</a
-                >
-              </h4>
-              <time datetime="2022-09-08"></time>
-            </div>
+          <h4>
+            <a
+              href="https://youtu.be/ZDO8bsLAc_4"
+              title="RPD220908"
+              target="_blank"
+              >GOTOE's KPOP RANDOM PLAY DANCE in BUSAN, KOREA</a
+            >
+          </h4>
+          <time datetime="2022-09-08"></time>
 
+          <div class="tslist" id="RPD220908">
             <ul style="list-style: none">
               <li>2:03 ENHYPEN - ParadoXXX Invasion</li>
               <li>3:22 GFRIEND - MAGO</li>
@@ -967,22 +985,21 @@
               <li>57:19 PSY feat.SUGA - That That</li>
               <br />
             </ul>
-            <br />
-            <!-- RPD220908 -->
+          </div>
+          <!-- RPD220908 -->
 
-            <div class="tslist" id="RPD220819">
-              <h4>
-                <a
-                  href="https://youtu.be/DGtx-QAaK60"
-                  title="RPD220819"
-                  target="_blank"
-                  >스쿨룩입고🏫🔔 대구 동성로에 모여서 케이팝랜덤플레이댄스를
-                  한다면? | K-Pop Random Play Dance in Korea</a
-                >
-              </h4>
-              <time datetime="2022-08-19"></time>
-            </div>
+          <h4>
+            <a
+              href="https://youtu.be/DGtx-QAaK60"
+              title="RPD220819"
+              target="_blank"
+              >스쿨룩입고🏫🔔 대구 동성로에 모여서 케이팝랜덤플레이댄스를
+              한다면? | K-Pop Random Play Dance in Korea</a
+            >
+          </h4>
+          <time datetime="2022-08-19"></time>
 
+          <div class="tslist" id="RPD220819">
             <ul style="list-style: none">
               <li>0:36 THE BOYZ - Reveal</li>
               <li>1:09 aespa - Savage</li>
@@ -1008,22 +1025,21 @@
               <li>27:52 TXT - Crown</li>
               <br />
             </ul>
-            <br />
-            <!-- RPD220819 -->
+          </div>
+          <!-- RPD220819 -->
 
-            <div class="tslist" id="RPD220802">
-              <h4>
-                <a
-                  href="https://youtu.be/9C4BG-iVxfM"
-                  title="RPD220802"
-                  target="_blank"
-                  >블링크, 아미 다 모여라! BTS vs BLACKPINK K-Pop Random Play
-                  Dance | THE J</a
-                >
-              </h4>
-              <time datetime="2022-08-02"></time>
-            </div>
+          <h4>
+            <a
+              href="https://youtu.be/9C4BG-iVxfM"
+              title="RPD220802"
+              target="_blank"
+              >블링크, 아미 다 모여라! BTS vs BLACKPINK K-Pop Random Play Dance
+              | THE J</a
+            >
+          </h4>
+          <time datetime="2022-08-02"></time>
 
+          <div class="tslist" id="RPD220802">
             <ul style="list-style: none">
               <li>0:43 BTS - Dope</li>
               <li>1:51 BTS - Fire</li>
@@ -1042,21 +1058,20 @@
               <li>19:40 BTS - Dynamite</li>
               <br />
             </ul>
-            <br />
-            <!-- RPD220802 -->
+          </div>
+          <!-- RPD220802 -->
 
-            <div class="tslist" id="RPD220729">
-              <h4>
-                <a
-                  href="https://youtu.be/QspecUcG60I"
-                  title="RPD220729"
-                  target="_blank"
-                  >GOTOE's KPOP RANDOM PLAY DANCE in SEOUL, KOREA</a
-                >
-              </h4>
-              <time datetime="2022-07-29"></time>
-            </div>
+          <h4>
+            <a
+              href="https://youtu.be/QspecUcG60I"
+              title="RPD220729"
+              target="_blank"
+              >GOTOE's KPOP RANDOM PLAY DANCE in SEOUL, KOREA</a
+            >
+          </h4>
+          <time datetime="2022-07-29"></time>
 
+          <div class="tslist" id="RPD220729">
             <ul style="list-style: none">
               <li>0:05 NMIXX - O.O</li>
               <li>1:38 PSY - THAT THAT (prod. & feat. SUGA of BTS)</li>
@@ -1095,22 +1110,21 @@
               <li>56:34 BTS - Permission To Dance</li>
               <br />
             </ul>
-            <br />
-            <!-- RPD220729 -->
+          </div>
+          <!-- RPD220729 -->
 
-            <div class="tslist" id="RPD220724">
-              <h4>
-                <a
-                  href="https://youtu.be/RCp9GaFhbzQ"
-                  title="RPD220724"
-                  target="_blank"
-                  >덥다더워💦 대구 댄스팀들 동성로에 모여 랜덤플레이댄스 뿌시기
-                  Kpop Random Play Dance | THE J</a
-                >
-              </h4>
-              <time datetime="2022-07-24"></time>
-            </div>
+          <h4>
+            <a
+              href="https://youtu.be/RCp9GaFhbzQ"
+              title="RPD220724"
+              target="_blank"
+              >덥다더워💦 대구 댄스팀들 동성로에 모여 랜덤플레이댄스 뿌시기 Kpop
+              Random Play Dance | THE J</a
+            >
+          </h4>
+          <time datetime="2022-07-24"></time>
 
+          <div class="tslist" id="RPD220724">
             <ul style="list-style: none">
               <li>1:52 NCT 127 - Kick It</li>
               <li>3:21 BEAST - Beautiful Night</li>
@@ -1137,106 +1151,119 @@
               <li>32:36 PSY - That That (prod. & feat. SUGA of BTS)</li>
               <br />
             </ul>
+          </div>
+          <!-- RPD220724 -->
+
+          <h4>
+            <a
+              href="https://youtu.be/ASnc5aqQRwY"
+              title="RPD211016"
+              target="_blank"
+              >[RPD] K-POP RANDOM PLAY DANCE │ 케이팝 랜덤플레이댄스 │[BLACK
+              DOOR 블랙도어]</a
+            >
+          </h4>
+          <time datetime="2021-10-16"></time>
+
+          <div class="tslist" id="RPD211016">
+            <details close>
+              <summary>Show Timestamps</summary>
+              <ul style="list-style: none">
+                <li>00:09 Red Velvet - Umpah Umpah</li>
+                <li>01:00 ATEEZ - Inception</li>
+                <li>02:39 NCT 127 - Superhuman</li>
+                <li>04:49 STAYC - ASAP</li>
+                <li>05:31 TXT - 0X1=LOVESONG</li>
+                <li>06:57 NCT Dream - Hello Future</li>
+                <li>07:38 Oh My Girl Banhana - Banana Allergy Monkey</li>
+                <li>08:21 EXO - Love Shot</li>
+                <li>09:01 ITZY - ICY</li>
+                <li>09:44 MONSTA X - GAMBLER</li>
+                <li>11:02 SHINee - Ring Ding Dong</li>
+                <li>12:03 THE BOYZ - D.D.D</li>
+                <li>12:40 ASTRO - After Midnight</li>
+                <li>14:01 BTS - MIC Drop</li>
+                <li>14:37 EXID - Lady</li>
+                <li>15:08 WINNER - Really Really</li>
+                <li>16:23 Baekhyun - Candy</li>
+                <li>17:38 Pentagon - Humph!</li>
+                <li>20:20 Stray Kids - Side Effects</li>
+                <li>20:48 BTS - Butter</li>
+                <li>21:57 Super M - Tiger Inside</li>
+                <li>22:32 SEVENTEEN - Pretty You</li>
+                <li>23:51 2PM - Make It</li>
+                <li>24:57 TWICE - Dance The Night Away</li>
+              </ul>
+            </details>
             <br />
-            <!-- RPD220724 -->
+          </div>
+          <!-- RPD211016 -->
 
-            <div class="tslist" id="RPD211016">
-              <h4>
-                <a
-                  href="https://youtu.be/ASnc5aqQRwY"
-                  title="RPD211016"
-                  target="_blank"
-                  >[RPD] K-POP RANDOM PLAY DANCE │ 케이팝 랜덤플레이댄스 │[BLACK
-                  DOOR 블랙도어]</a
-                >
-              </h4>
-              <time datetime="2021-10-16"></time>
-            </div>
+          <h4>
+            <a
+              href="https://youtu.be/1hraWWPmHLw"
+              title="RPD211003"
+              target="_blank"
+              >[RPD] K-POP RANDOM PLAY DANCE │ 케이팝 랜덤플레이댄스 [BLACK DOOR
+              블랙도어]</a
+            >
+          </h4>
+          <time datetime="2021-10-03"></time>
 
-            <ul style="list-style: none">
-              <li>00:09 Red Velvet - Umpah Umpah</li>
-              <li>01:00 ATEEZ - Inception</li>
-              <li>02:39 NCT 127 - Superhuman</li>
-              <li>04:49 STAYC - ASAP</li>
-              <li>05:31 TXT - 0X1=LOVESONG</li>
-              <li>06:57 NCT Dream - Hello Future</li>
-              <li>07:38 Oh My Girl Banhana - Banana Allergy Monkey</li>
-              <li>08:21 EXO - Love Shot</li>
-              <li>09:01 ITZY - ICY</li>
-              <li>09:44 MONSTA X - GAMBLER</li>
-              <li>11:02 SHINee - Ring Ding Dong</li>
-              <li>12:03 THE BOYZ - D.D.D</li>
-              <li>12:40 ASTRO - After Midnight</li>
-              <li>14:01 BTS - MIC Drop</li>
-              <li>14:37 EXID - Lady</li>
-              <li>15:08 WINNER - Really Really</li>
-              <li>16:23 Baekhyun - Candy</li>
-              <li>17:38 Pentagon - Humph!</li>
-              <li>20:20 Stray Kids - Side Effects</li>
-              <li>20:48 BTS - Butter</li>
-              <li>21:57 Super M - Tiger Inside</li>
-              <li>22:32 SEVENTEEN - Pretty You</li>
-              <li>23:51 2PM - Make It</li>
-              <li>24:57 TWICE - Dance The Night Away</li>
-              <br />
-            </ul>
+          <div class="tslist" id="RPD211003">
+            <details close>
+              <summary>Show Timestamps</summary>
+              <ul style="list-style: none">
+                <li>00:52 NU'EST - INSIDE OUT</li>
+                <li>03:07 SHINee - Sherlock</li>
+                <li>04:17 NCT 127 - Kick It</li>
+                <li>06:18 BTS - Dynamite</li>
+                <li>08:01 WINNER - Millions</li>
+                <li>09:14 ATEEZ - I'm The One</li>
+                <li>10:40 BLACKPINK - How You Like That</li>
+                <li>11:23 CIX - Movie Star</li>
+                <li>12:34 Stray Kids - Miroh</li>
+                <li>15:01 2PM - Go Crazy</li>
+                <li>16:28 IU - LILAC</li>
+                <li>17:14 MONSTA X - Jealousy</li>
+                <li>18:29 TXT - Run Away</li>
+                <li>19:11 SNSD - Girl's Generation</li>
+                <li>19:54 THE BOYZ - Reveal</li>
+                <li>21:15 aespa - Next Level</li>
+                <li>21:54 SEVENTEEN - Ready To Love</li>
+                <li>23:15 NCT U - Make A Wish</li>
+                <li>23:54 ITZY - Mafia In the morning</li>
+                <li>25:18 ASTRO - ONE</li>
+                <li>27:21 Brave Girls - Chi Mat Ba Ram</li>
+                <li>28:19 EXO - Monster</li>
+                <li>28:58 BTS - Permission to dance</li>
+              </ul>
+            </details>
             <br />
-            <!-- RPD211016 -->
+          </div>
+          <!-- RPD211003 -->
 
-            <div class="tslist" id="RPD211003">
-              <h4>
-                <a
-                  href="https://youtu.be/1hraWWPmHLw"
-                  title="RPD211003"
-                  target="_blank"
-                  >[RPD] K-POP RANDOM PLAY DANCE │ 케이팝 랜덤플레이댄스 [BLACK
-                  DOOR 블랙도어]</a
-                >
-              </h4>
-              <time datetime="2021-10-03"></time>
-            </div>
+          <h4>
+            <a
+              href="https://youtu.be/SovMxkP7bDc"
+              title="RPD210405"
+              target="_blank"
+              >[RPD] KPOP RANDOM PLAY DANCE / 케이팝 랜덤플레이 댄스</a
+            >
+          </h4>
+          <time datetime="2021-04-05"></time>
 
-            <ul style="list-style: none">
-              <li>00:52 NU'EST - INSIDE OUT</li>
-              <li>03:07 SHINee - Sherlock</li>
-              <li>04:17 NCT 127 - Kick It</li>
-              <li>06:18 BTS - Dynamite</li>
-              <li>08:01 WINNER - Millions</li>
-              <li>09:14 ATEEZ - I'm The One</li>
-              <li>10:40 BLACKPINK - How You Like That</li>
-              <li>11:23 CIX - Movie Star</li>
-              <li>12:34 Stray Kids - Miroh</li>
-              <li>15:01 2PM - Go Crazy</li>
-              <li>16:28 IU - LILAC</li>
-              <li>17:14 MONSTA X - Jealousy</li>
-              <li>18:29 TXT - Run Away</li>
-              <li>19:11 SNSD - Girl's Generation</li>
-              <li>19:54 THE BOYZ - Reveal</li>
-              <li>21:15 aespa - Next Level</li>
-              <li>21:54 SEVENTEEN - Ready To Love</li>
-              <li>23:15 NCT U - Make A Wish</li>
-              <li>23:54 ITZY - Mafia In the morning</li>
-              <li>25:18 ASTRO - ONE</li>
-              <li>27:21 Brave Girls - Chi Mat Ba Ram</li>
-              <li>28:19 EXO - Monster</li>
-              <li>28:58 BTS - Permission to dance</li>
-              <br />
-            </ul>
-            <br />
-            <!-- RPD211003 -->
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/SovMxkP7bDc"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
 
-            <div class="tslist" id="RPD210405">
-              <h4>
-                <a
-                  href="https://youtu.be/SovMxkP7bDc"
-                  title="RPD210405"
-                  target="_blank"
-                  >[RPD] KPOP RANDOM PLAY DANCE / 케이팝 랜덤플레이 댄스</a
-                >
-              </h4>
-              <time datetime="2021-04-05"></time>
-            </div>
-
+          <div class="tslist" id="RPD210405">
             <ul style="list-style: none">
               <li>00:04 Brave Girls - Rollin'</li>
               <li>00:47 NCT 127 - TOUCH</li>
@@ -1271,64 +1298,64 @@
               <li>25:01 BTS - Boy With Luv</li>
               <br />
             </ul>
+          </div>
+          <!-- RPD210405 -->
+
+          <h4>
+            <a
+              href="https://youtu.be/i8x_gK1ILCY"
+              title="RPD210801"
+              target="_blank"
+              >[하드털이] 케이팝랜덤플레이댄스 K-POP RANDOM PLAY DANCE | RPD</a
+            >
+          </h4>
+          <time datetime="2021-08-01"></time>
+
+          <div class="tslist" id="RPD210801">
+            <details close>
+              <summary>Show Timestamps</summary>
+              <ul style="list-style: none">
+                <li>0:09 BTS - Dynamite (Holiday Remix)</li>
+                <li>2:06 THE BOYZ - White</li>
+                <li>2:40 RED VELVET - Psycho</li>
+                <li>3:20 NCT DREAM - Boom</li>
+                <li>4:31 STRAY KIDS - Miroh</li>
+                <li>6:35 ITZY - Dalla Dalla</li>
+                <li>7:34 SHINEE - Sherlock</li>
+                <li>8:44 GFRIEND - Mago</li>
+                <li>9:30 SEVENTEEN - Home</li>
+                <li>10:01 AESPA - Black Mamba</li>
+                <li>10:38 EXO - Love Shot</li>
+                <li>11:17 IOI - Very Very Very</li>
+                <li>11:46 WINNER - Millions</li>
+                <li>12:17 SUNMI - Lalalay</li>
+                <li>12:47 2PM - My House</li>
+                <li>14:01 BTS - Black Swan</li>
+                <li>15:23 NCT 127 - Regular</li>
+                <li>16:03 WONDER GIRLS - Be My Baby</li>
+                <li>17:26 TXT - Run Away</li>
+                <li>18:51 ATEEZ - Answer</li>
+                <li>20:22 BLACKPINK - Playing With Fire</li>
+                <li>20:54 SNSD - Kissing You</li>
+                <li>25:07 SUPERM - Jopping</li>
+                <li>27:08 GFRIEND - Christmas Present</li>
+              </ul>
+            </details>
             <br />
-            <!-- RPD210405 -->
+          </div>
+          <!-- RPD210801 -->
 
-            <div class="tslist" id="RPD210801">
-              <h4>
-                <a
-                  href="https://youtu.be/i8x_gK1ILCY"
-                  title="RPD210801"
-                  target="_blank"
-                  >[하드털이] 케이팝랜덤플레이댄스 K-POP RANDOM PLAY DANCE |
-                  RPD</a
-                >
-              </h4>
-              <time datetime="2021-08-01"></time>
-            </div>
+          <h4>
+            <a
+              href="https://youtu.be/QgXz2VL-yaw"
+              title="RPD191126"
+              target="_blank"
+              >GOTOE'S KPOP RANDOM PLAY DANCE in ULSAN, KOREA</a
+            >
+          </h4>
+          <time datetime="2019-11-26"></time>
 
-            <ul style="list-style: none">
-              <li>0:09 BTS - Dynamite (Holiday Remix)</li>
-              <li>2:06 THE BOYZ - White</li>
-              <li>2:40 RED VELVET - Psycho</li>
-              <li>3:20 NCT DREAM - Boom</li>
-              <li>4:31 STRAY KIDS - Miroh</li>
-              <li>6:35 ITZY - Dalla Dalla</li>
-              <li>7:34 SHINEE - Sherlock</li>
-              <li>8:44 GFRIEND - Mago</li>
-              <li>9:30 SEVENTEEN - Home</li>
-              <li>10:01 AESPA - Black Mamba</li>
-              <li>10:38 EXO - Love Shot</li>
-              <li>11:17 IOI - Very Very Very</li>
-              <li>11:46 WINNER - Millions</li>
-              <li>12:17 SUNMI - Lalalay</li>
-              <li>12:47 2PM - My House</li>
-              <li>14:01 BTS - Black Swan</li>
-              <li>15:23 NCT 127 - Regular</li>
-              <li>16:03 WONDER GIRLS - Be My Baby</li>
-              <li>17:26 TXT - Run Away</li>
-              <li>18:51 ATEEZ - Answer</li>
-              <li>20:22 BLACKPINK - Playing With Fire</li>
-              <li>20:54 SNSD - Kissing You</li>
-              <li>25:07 SUPERM - Jopping</li>
-              <li>27:08 GFRIEND - Christmas Present</li>
-              <br />
-            </ul>
-            <br />
-            <!-- RPD210801 -->
-
-            <div class="tslist" id="RPD191126">
-              <h4>
-                <a
-                  href="https://youtu.be/QgXz2VL-yaw"
-                  title="RPD191126"
-                  target="_blank"
-                  >GOTOE'S KPOP RANDOM PLAY DANCE in ULSAN, KOREA</a
-                >
-              </h4>
-              <time datetime="2019-11-26"></time>
-            </div>
-
+          <div class="tslist" id="RPD191126">
             <ul style="list-style: none">
               <li>00:04 SUNMI - Lalalay</li>
               <li>00:30 TXT - Run Away</li>
@@ -1355,22 +1382,21 @@
               <li>27:03 BTS - Blood, Sweat & Tears</li>
               <br />
             </ul>
-            <br />
-            <!-- RPD191126 -->
+          </div>
+          <!-- RPD191126 -->
 
-            <div class="tslist" id="RPD191109">
-              <h4>
-                <a
-                  href="https://youtu.be/Rsch4m4lYKg"
-                  title="RPD191109"
-                  target="_blank"
-                  >[RPD] KPOP RANDOM DANCE in Hanoi, Vietnam / 케이팝
-                  랜덤플레이댄스 in 베트남 하노이 by KINGPIN</a
-                >
-              </h4>
-              <time datetime="2019-11-09"></time>
-            </div>
+          <h4>
+            <a
+              href="https://youtu.be/Rsch4m4lYKg"
+              title="RPD191109"
+              target="_blank"
+              >[RPD] KPOP RANDOM DANCE in Hanoi, Vietnam / 케이팝 랜덤플레이댄스
+              in 베트남 하노이 by KINGPIN</a
+            >
+          </h4>
+          <time datetime="2019-11-09"></time>
 
+          <div class="tslist" id="RPD191109">
             <ul style="list-style: none">
               <li>01:00 SEVENTEEN - Hit</li>
               <li>01:38 SEVENTEEN - Oh My!</li>
@@ -1411,21 +1437,20 @@
               <li>36:12 STRAY KIDS - Double Knot</li>
               <br />
             </ul>
-            <br />
-            <!-- RPD191109 -->
+          </div>
+          <!-- RPD191109 -->
 
-            <div class="tslist" id="RPD190923">
-              <h4>
-                <a
-                  href="https://youtu.be/H4NgIFJw-6M"
-                  title="RPD190923"
-                  target="_blank"
-                  >GOTOE'S KPOP RANDOM PLAY DANCE in Han River Park, SEOUL</a
-                >
-              </h4>
-              <time datetime="2019-09-23"></time>
-            </div>
+          <h4>
+            <a
+              href="https://youtu.be/H4NgIFJw-6M"
+              title="RPD190923"
+              target="_blank"
+              >GOTOE'S KPOP RANDOM PLAY DANCE in Han River Park, SEOUL</a
+            >
+          </h4>
+          <time datetime="2019-09-23"></time>
 
+          <div class="tslist" id="RPD190923">
             <ul style="list-style: none">
               <li>00:50 BTS - Boy With Luv</li>
               <li>01:42 Red Velvet - Umpah Umpah</li>
@@ -1456,22 +1481,20 @@
               <li>25:55 Produce 101 S1 - Pick Me</li>
               <br />
             </ul>
-            <br />
-            <!-- RPD190923 -->
+          </div>
+          <!-- RPD190923 -->
 
-            <div class="tslist" id="RPD190826">
-              <h4>
-                <a
-                  href="https://youtu.be/jptwT0zQr00"
-                  title="RPD190826"
-                  target="_blank"
-                  >[RPD] kpop random play dance in korea 홍대st.
-                  랜덤플레이댄스</a
-                >
-              </h4>
-              <time datetime="2019-08-26"></time>
-            </div>
+          <h4>
+            <a
+              href="https://youtu.be/jptwT0zQr00"
+              title="RPD190826"
+              target="_blank"
+              >[RPD] kpop random play dance in korea 홍대st. 랜덤플레이댄스</a
+            >
+          </h4>
+          <time datetime="2019-08-26"></time>
 
+          <div class="tslist" id="RPD190826">
             <ul style="list-style: none">
               <li>01:42 SEVENTEEN - Clap</li>
               <li>03:18 SEVENTEEN - Home</li>
@@ -1499,21 +1522,20 @@
               <li>25:29 BTS - Idol</li>
               <br />
             </ul>
-            <br />
-            <!-- RPD190826 -->
+          </div>
+          <!-- RPD190826 -->
 
-            <div class="tslist" id="RPD190715">
-              <h4>
-                <a
-                  href="https://youtu.be/ObcQ671pKhc"
-                  title="RPD190715"
-                  target="_blank"
-                  >GoToe's 1st KPOP Random Play Dance in Seoul, Korea</a
-                >
-              </h4>
-              <time datetime="2019-07-15"></time>
-            </div>
+          <h4>
+            <a
+              href="https://youtu.be/ObcQ671pKhc"
+              title="RPD190715"
+              target="_blank"
+              >GoToe's 1st KPOP Random Play Dance in Seoul, Korea</a
+            >
+          </h4>
+          <time datetime="2019-07-15"></time>
 
+          <div class="tslist" id="RPD190715">
             <ul style="list-style: none">
               <li>00:08 CHUNG HA - Snapping</li>
               <li>00:54 BTS - Boy With Luv</li>
@@ -1541,22 +1563,21 @@
               <li>27:12 BLACKPINK - Kill This Love</li>
               <br />
             </ul>
-            <br />
-            <!-- RPD190715 -->
+          </div>
+          <!-- RPD190715 -->
 
-            <div class="tslist" id="RPD190601">
-              <h4>
-                <a
-                  href="https://youtu.be/Lsl_QuDPGlQ"
-                  title="RPD190601"
-                  target="_blank"
-                  >GOTOE'S KPOP RANDOM PLAY DANCE with SCHOOL UNIFORM CONCEPT in
-                  Korea</a
-                >
-              </h4>
-              <time datetime="2019-06-01"></time>
-            </div>
+          <h4>
+            <a
+              href="https://youtu.be/Lsl_QuDPGlQ"
+              title="RPD190601"
+              target="_blank"
+              >GOTOE'S KPOP RANDOM PLAY DANCE with SCHOOL UNIFORM CONCEPT in
+              Korea</a
+            >
+          </h4>
+          <time datetime="2019-06-01"></time>
 
+          <div class="tslist" id="RPD190601">
             <ul style="list-style: none">
               <li>0:12 BTS - Boy ln Luv</li>
               <li>0:57 EXO - Growl</li>
@@ -1579,22 +1600,21 @@
               <li>25:45 BLACKPINK - Kill This Love</li>
               <br />
             </ul>
-            <br />
-            <!-- RPD190601 -->
+          </div>
+          <!-- RPD190601 -->
 
-            <div class="tslist" id="RPD190422">
-              <h4>
-                <a
-                  href="https://youtu.be/rNgWMSncHxI"
-                  title="RPD190422"
-                  arget="_blank"
-                  >「RPD」 KPOP Random Play Dance in Korea (2nd ®PICK SONG)
-                  랜덤플레이댄스 (제2회 ®픽송퍼포먼스)</a
-                >
-              </h4>
-              <time datetime="2019-04-22"></time>
-            </div>
+          <h4>
+            <a
+              href="https://youtu.be/rNgWMSncHxI"
+              title="RPD190422"
+              arget="_blank"
+              >「RPD」 KPOP Random Play Dance in Korea (2nd ®PICK SONG)
+              랜덤플레이댄스 (제2회 ®픽송퍼포먼스)</a
+            >
+          </h4>
+          <time datetime="2019-04-22"></time>
 
+          <div class="tslist" id="RPD190422">
             <ul style="list-style: none">
               <li>1:26 DNA - BTS</li>
               <li>2:28 Really Really - WINNER</li>
@@ -1622,22 +1642,20 @@
               <li>37:48 CROWN - TXT</li>
               <br />
             </ul>
-            <br />
-            <!-- RPD190422 -->
+          </div>
+          <!-- RPD190422 -->
 
-            <div class="tslist" id="RPD190325">
-              <h4>
-                <a
-                  href="https://youtu.be/CYjObdaKWyc"
-                  title="RPD190325"
-                  target="_blank"
-                  >GOTOE'S KPOP RANDOM PLAY DANCE WITH KOREAN TRADITIONAL
-                  CLOTHES!
-                </a>
-              </h4>
-              <time datetime="2019-03-25"></time>
-            </div>
+          <h4>
+            <a
+              href="https://youtu.be/CYjObdaKWyc"
+              title="RPD190325"
+              target="_blank"
+              >GOTOE'S KPOP RANDOM PLAY DANCE WITH KOREAN TRADITIONAL CLOTHES!
+            </a>
+          </h4>
+          <time datetime="2019-03-25"></time>
 
+          <div class="tslist" id="RPD190325">
             <ul style="list-style: none">
               <li>00:05 MOMOLAND - I'm So Hot</li>
               <li>00:45 SUNMI - Gashina</li>
@@ -1672,22 +1690,21 @@
               <li>29:20 BTS - Idol</li>
               <br />
             </ul>
-            <br />
-            <!-- RPD190325 -->
+          </div>
+          <!-- RPD190325 -->
 
-            <div class="tslist" id="RPD190317">
-              <h4>
-                <a
-                  href="https://youtu.be/bwY5s4PYzfw"
-                  title="RPD190317"
-                  arget="_blank"
-                  >「RPD」 KPOP RANDOM PLAY DANCE in KOREA (1st ®PICK SONG
-                  PERFORMANCE) / 랜덤플레이댄스 (제1회 ®픽송퍼포먼스)</a
-                >
-              </h4>
-              <time datetime="2019-03-17"></time>
-            </div>
+          <h4>
+            <a
+              href="https://youtu.be/bwY5s4PYzfw"
+              title="RPD190317"
+              arget="_blank"
+              >「RPD」 KPOP RANDOM PLAY DANCE in KOREA (1st ®PICK SONG
+              PERFORMANCE) / 랜덤플레이댄스 (제1회 ®픽송퍼포먼스)</a
+            >
+          </h4>
+          <time datetime="2019-03-17"></time>
 
+          <div class="tslist" id="RPD190317">
             <ul style="list-style: none">
               <li>0:14 Red Velvet - Power up</li>
               <li>1:28 Gfriend - Sunrise</li>
@@ -1718,22 +1735,21 @@
               <li>35:33 (G)-idle - Senorita</li>
               <br />
             </ul>
-            <br />
-            <!-- RPD190317 -->
+          </div>
+          <!-- RPD190317 -->
 
-            <div class="tslist" id="RPD190310">
-              <h4>
-                <a
-                  href="https://youtu.be/dDhb_2BcAXQ"
-                  title="RPD190310"
-                  arget="_blank"
-                  >대구에서의 두 번째 랜덤플레이댄스! GOTOE'S RANDOM PLAY DANCE
-                  in KOREA</a
-                >
-              </h4>
-              <time datetime="2019-03-10"></time>
-            </div>
+          <h4>
+            <a
+              href="https://youtu.be/dDhb_2BcAXQ"
+              title="RPD190310"
+              arget="_blank"
+              >대구에서의 두 번째 랜덤플레이댄스! GOTOE'S RANDOM PLAY DANCE in
+              KOREA</a
+            >
+          </h4>
+          <time datetime="2019-03-10"></time>
 
+          <div class="tslist" id="RPD190310">
             <ul style="list-style: none">
               <li>0:09 BTS - Dope</li>
               <li>0:43 EXO - The Eve</li>
@@ -1752,22 +1768,21 @@
               <li>26:57 BIGBANG - Bang Bang Bang</li>
               <br />
             </ul>
-            <br />
-            <!-- RPD190310 -->
+          </div>
+          <!-- RPD190310 -->
 
-            <div class="tslist" id="RPD190224">
-              <h4>
-                <a
-                  href="https://youtu.be/N0vkhatrvPw"
-                  title="RPD190224"
-                  target="_blank"
-                  >K-POP RANDOM PLAY DANCE in KOREA / 랜덤플레이댄스 in 대구
-                  동성로</a
-                >
-              </h4>
-              <time datetime="2019-02-24"></time>
-            </div>
+          <h4>
+            <a
+              href="https://youtu.be/N0vkhatrvPw"
+              title="RPD190224"
+              target="_blank"
+              >K-POP RANDOM PLAY DANCE in KOREA / 랜덤플레이댄스 in 대구
+              동성로</a
+            >
+          </h4>
+          <time datetime="2019-02-24"></time>
 
+          <div class="tslist" id="RPD190224">
             <ul style="list-style: none">
               <li>0:00 Seventeen - Home</li>
               <li>3:57 EXO - Love Shot</li>
@@ -1785,22 +1800,21 @@
               <li>15:28 PSY - NEW FACE</li>
               <br />
             </ul>
-            <br />
-            <!-- RPD190224 -->
+          </div>
+          <!-- RPD190224 -->
 
-            <div class="tslist" id="RPD190114">
-              <h4>
-                <a
-                  href="https://youtu.be/jJ6wv1ywElA"
-                  title="RPD190114"
-                  arget="_blank"
-                  >[국내편 제4회 랜플] 고퇴경의 케이팝랜덤플레이댄스 울산편 /
-                  GOTOE'S RANDOM PLAY DANCE in KOREA</a
-                >
-              </h4>
-              <time datetime="2019-01-14"></time>
-            </div>
+          <h4>
+            <a
+              href="https://youtu.be/jJ6wv1ywElA"
+              title="RPD190114"
+              arget="_blank"
+              >[국내편 제4회 랜플] 고퇴경의 케이팝랜덤플레이댄스 울산편 /
+              GOTOE'S RANDOM PLAY DANCE in KOREA</a
+            >
+          </h4>
+          <time datetime="2019-01-14"></time>
 
+          <div class="tslist" id="RPD190114">
             <ul style="list-style: none">
               <li>0:09 BTS - Dope</li>
               <li>0:43 EXO - The Eve</li>
@@ -1819,22 +1833,21 @@
               <li>26:57 BIGBANG - Bang Bang Bang</li>
               <br />
             </ul>
-            <br />
-            <!-- RPD190114 -->
+          </div>
+          <!-- RPD190114 -->
 
-            <div class="tslist" id="RPD181217">
-              <h4>
-                <a
-                  href="https://youtu.be/7NClnmBj3q0"
-                  title="RPD181217"
-                  arget="_blank"
-                  >국내편 제2화! 고퇴경의 랜덤플레이댄스 in 부산 / Gotoe's
-                  Random Play Dance in Korea</a
-                >
-              </h4>
-              <time datetime="2018-12-17"></time>
-            </div>
+          <h4>
+            <a
+              href="https://youtu.be/7NClnmBj3q0"
+              title="RPD181217"
+              arget="_blank"
+              >국내편 제2화! 고퇴경의 랜덤플레이댄스 in 부산 / Gotoe's Random
+              Play Dance in Korea</a
+            >
+          </h4>
+          <time datetime="2018-12-17"></time>
 
+          <div class="tslist" id="RPD181217">
             <ul style="list-style: none">
               <li>0:12 Love Shot - EXO</li>
               <li>0:49 Dance The Night Away - TWICE</li>
@@ -1853,11 +1866,8 @@
               <li>23:29 Sorry, Sorry - SUPER JUNIOR</li>
               <br />
             </ul>
-            <!-- RPD181217 -->
-
-            <br /><br /><br />
           </div>
-          <!-- acMenu -->
+          <!-- RPD181217 -->
         </div>
         <!-- main -->
       </div>
