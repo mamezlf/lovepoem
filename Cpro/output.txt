@@ -1,69 +1,35 @@
 
-<div class="tslist" id="RPD200314"><h4> <a href="https://youtu.be/6uKI-6b-nxc" title= "RPD200314"	arget= "_blank"
+<div class="tslist" id="RPD211107"><h4> <a href="https://youtu.be/kbiGN1KInwk" title= "RPD211107"	arget= "_blank"
 ><!--title here--></a></h4>
-<time datetime="2020-03-14"></time>
+<time datetime="2021-11-07"></time>
 </div>
 
-<ul style="list-style: none"><li>00:56 BTS - Dope
+<ul style="list-style: none"><li>00:05 Oh My Girl - Dun Dun Dance
 </li>
-<li>01:33 WJSN - Boogie Up
+<li>04:58 NCT Dream - My First and Last
 </li>
-<li>02:01 Stray Kids - Side Effects
+<li>05:28 Brave Girls - Chi Mat Ba Ram
 </li>
-<li>02:29 Red Velvet - Red Flavour
+<li>06:27 SHINee - Don't Call Me
 </li>
-<li>03:05 ATEEZ - Wave
+<li>07:55 2PM - Make It
 </li>
-<li>03:39 BLACKPINK - Boombayah
+<li>10:20 BTS - Dynamite
 </li>
-<li>05:00 ITZY - Icy
+<li>13:09 Baekhyun - Candy
 </li>
-<li>05:44 Super Junior - Devil
+<li>14:25 TVXQ - Mirotic
 </li>
-<li>06:23 (G)I-DLE - Latata
+<li>16:53 ASTRO - After Midnight
 </li>
-<li>08:46 TXT - Crown
+<li>19:26 SEVENTEEN - Hit
 </li>
-<li>10:07 ONEUS - Valkyrie
+<li>20:59 Produce 101 S2 - Pick Me
 </li>
-<li>11:16 THE BOYZ - D.D.D
+<li>25:46 BTS - Blood, Sweat & Tears
 </li>
-<li>11:54 IZ*ONE - Violeta
-</li>
-<li>13:41 SEVENTEEN - Oh My!
-</li>
-<li>14:24 Chung Ha - Snapping
-</li>
-<li>15:12 NCT 127 - Simon Says
-</li>
-<li>15:50 OH MY GIRL - Bungee
-</li>
-<li>16:32 WINNER - SOSO
-</li>
-<li>17:17 GFRIEND - Fever
-</li>
-<li>17:57 PENTAGON Humph!
-</li>
-<li>18:37 SUNMI - Lalalay
-</li>
-<li>19:06 EXO - Overdose
-</li>
-<li>19:32 Orange Caramel - Catallena
-</li>
-<li>21:15 EVERGLOW - Adios
-</li>
-<li>21:56 VERIVERY - Lay Back
-</li>
-<li>23:27 J-HOPE feat. Becky G - Chicken Noodle Soup
-</li>
-<li>23:58 MOMOLAND - I'm So Hot
-</li>
-<li>24:42 SuperM - Jopping
-</li>
-<li>25:18 AOA - Come See Me
-</li>
-<li>26:01 BTS - ON</li>
+<li>27:10 SSAK3 - Beach Again</li>
 <br />
 </ul>
 <br />
-<!-- RPD200314 -->
+<!-- RPD211107 -->
