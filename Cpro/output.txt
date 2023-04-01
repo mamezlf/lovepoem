@@ -1,67 +1,85 @@
 
-<div class="tslist" id="RPD230305"><h4> <a href="https://youtu.be/EhJstGQMERw" title= "RPD230305"	arget= "_blank"
+<div class="tslist" id="RPD230326"><h4> <a href="https://youtu.be/7iWGCTxD1xE" title= "RPD230326"	arget= "_blank"
 ><!--title here--></a></h4>
-<time datetime="2023-03-05"></time>
+<time datetime="2023-03-26"></time>
 </div>
 
-<ul style="list-style: none"><li>2:13 ENHYPEN - Future Perfect (Pass the MIC)
+<ul style="list-style: none"><li>3:05 BOYS PLANET- HERE I AM
 </li>
-<li>5:49 NCT 127 - Kick It
+<li>4:35 IMASE- NIGHT DANCER
 </li>
-<li>6:58 ZICO - New thing
+<li>5:32 THE BOYZ- ROAR
 </li>
-<li>9:15 BTS - I NEED U
+<li>6:47 WINNER- I LOVE U
 </li>
-<li>11:32 NewJeans - OMG
+<li>7:52 BTS- RUN BTS
 </li>
-<li>13:05 Stray Kids - God's Menu
+<li>9:09 NCT- MAKE A WISH
 </li>
-<li>17:13 IZ*ONE - FIESTA
+<li>10:18 ATEEZ- THANXX
 </li>
-<li>18:42 SEVENTEEN - HIT
+<li>11:49 TAEYANG- VIBE(feat.Jimin of BTS)
 </li>
-<li>20:44 EXO - Power
+<li>12:24 OHMY GIRL-BUNGEE(Fall in Love)
 </li>
-<li>23:10 Yoon Mirae, BIBI - LAW
+<li>13:07 TEASURE- HELLO
 </li>
-<li>23:59 BIGBANG - Fantastic Baby
+<li>14:42 FORMIS_9- TALK & TALK
 </li>
-<li>25:07 Sunmi - LALALAY
+<li>15:29 iKON-RHYTHM TA
 </li>
-<li>26:01 Charlie Puth - I Don't Think That I Like Her
+<li>16:36 BAEKHYUN- CANDY
 </li>
-<li>26:32 MONSTA X - GAMBLER
+<li>18:02 PENTAGON- SHINE
 </li>
-<li>29:15 Sunmi - Gashina
+<li>18:37 BILLLIE- GingaMingaYo(the strange world)
 </li>
-<li>29:48 STAYC - ASAP
+<li>19:05 KAI, SEULG,JENO,KARINA- Hot & Cold
 </li>
-<li>31:07 PENTAGON - Naughty Boy
+<li>21:37 GOT7- ECLIPSE
 </li>
-<li>34:48 ATEEZ - The Real
+<li>24:47 ENHYPEN- FEVER
 </li>
-<li>37:47 SuperM - Tiger Inside
+<li>26:07 GD, TAEYANG- GOOD BOY
 </li>
-<li>39:52 GFRIEND - Sunrise
+<li>27:26 NCT 127- Regular
 </li>
-<li>41:22 SHINee - Everybody
+<li>29:53 ATEEZ- INCEPTION
 </li>
-<li>42:46 TAEYANG - VIBE (feat. Jimin)
+<li>32:54 SEVENTEEN- THANKS
 </li>
-<li>44:52 TXT - CROWN
+<li>35:31 SuperM- Tiger Inside
 </li>
-<li>48:24 NU'EST - Inside Out
+<li>39:07 SIXC- MOVE
 </li>
-<li>50:24 ITZY - SNEAKERS
+<li>40:53 tripleS- Rising
 </li>
-<li>51:20 NCT 127 - Cherry Bomb
+<li>42:34 BTS- IDOL
 </li>
-<li>53:15 MOMOLAND - BAAM
+<li>43:47 A.C.E- Under Cover
 </li>
-<li>57:58 BTS - Anpanman
+<li>46:12 EXO- Don't fight the feeling
 </li>
-<li>1:05:02 j-hope - Chicken Noodle Soup</li>
+<li>50:04 VIXX- Shangri-La
+</li>
+<li>51:35 GOD- Sorrow(Sadness)
+</li>
+<li>53:12 BTS- Spring Day
+</li>
+<li>54:46 ATEEZ- I'm The One
+</li>
+<li>56:36 TXT- Good Boy Gone Bad
+</li>
+<li>57:16 IU- Coin
+</li>
+<li>58:23 tripleS- Generation
+</li>
+<li>1:01:39 BTS- FAKE LOVE
+</li>
+<li>1:02:29 BLACKPINK- Pink Venom
+</li>
+<li>1:03:24 Power Music Workout- Toca Toca</li>
 <br />
 </ul>
 <br />
-<!-- RPD230305 -->
+<!-- RPD230326 -->
