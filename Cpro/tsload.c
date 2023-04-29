@@ -54,11 +54,11 @@ int main(void)
   char iframe[SIZE];
 
   printf("youtube link: ");
-  scanf("%s", &href);
+  scanf("%s", href);
   printf("date: ");
   scanf("%d", &date);
-  fprintf(out, "\n<div class=\"tslist\" id=\"RPD%d\">", date);
-  fprintf(out, "<h4> <a href=\"%s\" title= \"RPD%d\"\target= \"_blank\"\n>", href, date);
+  fprintf(out, "\n<div class=\"prefix\" id=\"%d\">", date);
+  fprintf(out, "<h4> <a href=\"%s\" title= \"RPD%d\" target= \"_blank\">\n", href, date);
 
   // printf("iframe: ");
   // fflush(stdin);
@@ -77,7 +77,7 @@ int main(void)
   y = datetmp / 100;
   fprintf(out, "<time datetime=\"20%02d-%02d-%02d\"></time>\n</div>\n", y, m, d);
 
-  fprintf(out, "\n<ul style=\"list-style: none\">");
+  fprintf(out, "\n<ul style=\"list-style: none\"class=\"tslist\" id=\"RPD%d\">",date);
 
   char buf[256];
   for (i = 0; i < num && fgets(buf, sizeof(buf), in); i++)
