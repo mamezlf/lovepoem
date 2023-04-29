@@ -1,85 +1,93 @@
 
-<div class="tslist" id="RPD230326"><h4> <a href="https://youtu.be/7iWGCTxD1xE" title= "RPD230326"	arget= "_blank"
+<div class="tslist" id="RPD230409"><h4> <a href="https://youtu.be/Xk4LurZjqvg" title= "RPD230409"	arget= "_blank"
 ><!--title here--></a></h4>
-<time datetime="2023-03-26"></time>
+<time datetime="2023-04-09"></time>
 </div>
 
-<ul style="list-style: none"><li>3:05 BOYS PLANET- HERE I AM
+<ul style="list-style: none"><li>00:43 KAI- Rover
 </li>
-<li>4:35 IMASE- NIGHT DANCER
+<li>02:26 TripleS- Rising
 </li>
-<li>5:32 THE BOYZ- ROAR
+<li>03:17 ATEEZ- HALAZIA
 </li>
-<li>6:47 WINNER- I LOVE U
+<li>06:13 BSS- FIGHTING 
 </li>
-<li>7:52 BTS- RUN BTS
+<li>07:46 Jimin- Set Me Free Pt.2
 </li>
-<li>9:09 NCT- MAKE A WISH
+<li>08:28 Fly Project- Toca Toca
 </li>
-<li>10:18 ATEEZ- THANXX
+<li>09:45 EXO- Wolf
 </li>
-<li>11:49 TAEYANG- VIBE(feat.Jimin of BTS)
+<li>10:27 girl's day- Twinkle Twinkle
 </li>
-<li>12:24 OHMY GIRL-BUNGEE(Fall in Love)
+<li>11:05 New Jeans- OMG
 </li>
-<li>13:07 TEASURE- HELLO
+<li>12:00 Stray Kids- Thunderous
 </li>
-<li>14:42 FORMIS_9- TALK & TALK
+<li>12:35 ITZY- ICY
 </li>
-<li>15:29 iKON-RHYTHM TA
+<li>13:03 ATEEZ- WAVE
 </li>
-<li>16:36 BAEKHYUN- CANDY
+<li>17:18 Wanna One- Energetic
 </li>
-<li>18:02 PENTAGON- SHINE
+<li>18:28 ATEEZ- Say My Name (18:47)
 </li>
-<li>18:37 BILLLIE- GingaMingaYo(the strange world)
+<li>19:47 PRODUCE X 101- X1-MA
 </li>
-<li>19:05 KAI, SEULG,JENO,KARINA- Hot & Cold
+<li>20:47 GOT7- You Calling My Name
 </li>
-<li>21:37 GOT7- ECLIPSE
+<li>21:57 THE BOYZ- REVEAL
 </li>
-<li>24:47 ENHYPEN- FEVER
+<li>24:12 iKON- GOODBYE ROAD
 </li>
-<li>26:07 GD, TAEYANG- GOOD BOY
+<li>25:18 TAEMIN- Criminal
 </li>
-<li>27:26 NCT 127- Regular
+<li>27:10 j-hope,J.Cole- on the street
 </li>
-<li>29:53 ATEEZ- INCEPTION
+<li>28:19 Nation's Son- NEVER
 </li>
-<li>32:54 SEVENTEEN- THANKS
+<li>29:22 EXO- Lotto
 </li>
-<li>35:31 SuperM- Tiger Inside
+<li>29:45 LOONA- Butterfly
 </li>
-<li>39:07 SIXC- MOVE
+<li>33:02 BOYS PLANET- Here I Am
 </li>
-<li>40:53 tripleS- Rising
+<li>34:32 AB6IX- Breathe
 </li>
-<li>42:34 BTS- IDOL
+<li>37:18 KAI,SEULGI,JENO,KARINA- Hot & Cold
 </li>
-<li>43:47 A.C.E- Under Cover
+<li>40:43 Jay Park- All I Wanna Do
 </li>
-<li>46:12 EXO- Don't fight the feeling
+<li>43:58 GOT7- Stop stop it
 </li>
-<li>50:04 VIXX- Shangri-La
+<li>48:47 New Jeans- Ditto
 </li>
-<li>51:35 GOD- Sorrow(Sadness)
+<li>49:56 NU'EST- INSIDE OUT
 </li>
-<li>53:12 BTS- Spring Day
+<li>51:48 B.I- BTBT
 </li>
-<li>54:46 ATEEZ- I'm The One
+<li>52:57 ATEEZ- Deja Vu
 </li>
-<li>56:36 TXT- Good Boy Gone Bad
+<li>54:55 GFRIEND- Sunrise
 </li>
-<li>57:16 IU- Coin
+<li>55:40 Rain- Rainism
 </li>
-<li>58:23 tripleS- Generation
+<li>57:03 BTS- ON
 </li>
-<li>1:01:39 BTS- FAKE LOVE
+<li>58:26 Yoonmirae,BIBI- LAW
 </li>
-<li>1:02:29 BLACKPINK- Pink Venom
+<li>59:14 Billlie- Gingaminga Yo(the strange world)
 </li>
-<li>1:03:24 Power Music Workout- Toca Toca</li>
+<li>59:44 J.Y. Park- Don't Leave Me
+</li>
+<li>1:00:46 OH MY GIRL- Fall in Love
+</li>
+<li>1:01:29 EXO- Overdose
+</li>
+<li>1:03:52 BLACKPINK- Forever Young
+</li>
+<li>1:04:29 SEVENTEEN- MANSAE</li>
 <br />
 </ul>
 <br />
-<!-- RPD230326 -->
+<!-- RPD230409 -->
